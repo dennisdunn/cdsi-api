@@ -26,7 +26,7 @@ app.use("/api/vaccines", scheduleRoutes);
 app.use("/api/testcases", testcaseRoutes);
 app.use("/api/observations", observationRoutes);
 
-app.use("/api", (req, res) => {
+app.use("/api/about", (req, res) => {
     res.json(metadata)
 })
 
