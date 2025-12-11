@@ -6,7 +6,10 @@
     "title": "CDSi Supporting Data API"
   },
   "basePath": "/api",
-  "schemes": ["https", "http"],
+  "schemes": [
+    "http",
+    "https"
+  ],
   "paths": {
     "/about": {
       "get": {
