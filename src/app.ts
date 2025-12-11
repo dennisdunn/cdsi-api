@@ -7,7 +7,8 @@ import scheduleRoutes from "./routes/scheduleRoutes";
 import observationRoutes from "./routes/observationRoutes";
 import swaggerDocument from "./swagger.json";
 import metadata from "./db/metadata.json";
-import { noCache, partialReply, searchReply, nullstringReply } from './middleware';
+// import { noCache, partialReply, searchReply, nullstringReply } from './middleware';
+import { noCache, partialReply, searchReply, cleanUpReply } from './middleware';
 
 const app = express();
 
@@ -19,7 +20,8 @@ app.use(cors());
 app.use(noCache);
 app.use(searchReply);
 app.use(partialReply);
-app.use(nullstringReply);
+// app.use(nullstringReply);
+app.use(cleanUpReply);
 
 app.use("/api/antigens", antigenRoutes);
 app.use("/api/vaccines", scheduleRoutes);

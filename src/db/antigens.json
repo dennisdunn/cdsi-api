@@ -360,7 +360,7 @@
                 "absMinAge": "6 weeks - 4 days",
                 "minAge": "6 weeks",
                 "earliestRecAge": "2 months",
-                "latestRecAge": "3 months \u002B 4 weeks",
+                "latestRecAge": "3 months + 4 weeks",
                 "maxAge": "",
                 "effectiveDate": "",
                 "cessationDate": ""
