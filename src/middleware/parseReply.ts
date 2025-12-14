@@ -25,14 +25,25 @@ const parse = node => {
     return node;
 }
 
+const dateRe = [
+
+]
 const parseDate = str => {
-    const reg = /(\d{4})(\d{2})(\d{2})|(\d{4})-(\d{2})-(\d{2})/;
-    const match = reg.exec(str);
-    return match ? ({ year: match[1], month: match[2], date: match[3] }) : str;
+    const reg1 = /(\d{4})-?(\d{2})-?(\d{2})/;
+    const reg2 = /(\d{2})\/(\d{2})\/(\d{4})/;
+    if (reg1.test(str)) {
+        const match = reg1.exec(str);
+        return match ? ({ year: match[1], month: match[2], date: match[3] }) : str;
+    } else if (reg2.test(str)) {
+        const match = reg2.exec(str);
+        return match ? ({ year: match[3], month: match[1], date: match[2] }) : str;
+    } else {
+        return str;
+    }
 }
 
 const isDateString = str => {
-    const reg = /(\d{4})-?(\d{2})-?(\d{2})/;
+    const reg = /\d{8}|\d{4}-\d{2}-\d{2}|\d{2}\/\d{2}\/\d{4}/; // doesn't match test case ids
     return reg.test(str);
 }
 
