@@ -43,7 +43,7 @@ const parseDate = str => {
 }
 
 const isDateString = str => {
-    const reg = /\d{8}|\d{4}-\d{2}-\d{2}|\d{2}\/\d{2}\/\d{4}/; // doesn't match test case ids
+    const reg = /\d{4}-\d{2}-\d{2}|\d{2}\/\d{2}\/\d{4}/; // doesn't match test case ids
     return reg.test(str);
 }
 
