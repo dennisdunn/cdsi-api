@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Cholera",
+    "antigen": [
+      "Cholera"
+    ],
+    "key": "cholera",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "DTaP/Tdap/Td",
+    "antigen": [
+      "Diphtheria",
+      "Pertussis",
+      "Tetanus"
+    ],
+    "key": "dtap-tdap-td",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "HepA",
+    "antigen": [
+      "HepA"
+    ],
+    "key": "hep-a",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "HepB",
+    "antigen": [
+      "HepB"
+    ],
+    "key": "hep-b",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Hib",
+    "antigen": [
+      "Hib"
+    ],
+    "key": "hib",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "HPV",
+    "antigen": [
+      "HPV"
+    ],
+    "key": "hpv",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Influenza",
+    "antigen": [
+      "Influenza"
+    ],
+    "key": "influenza",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Japanese Encephalitis",
+    "antigen": [
+      "Japanese Encephalitis"
+    ],
+    "key": "japanese-encephalitis",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Meningococcal",
+    "antigen": [
+      "Meningococcal"
+    ],
+    "key": "meningococcal",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Meningococcal B",
+    "antigen": [
+      "Meningococcal B"
+    ],
+    "key": "meningococcal-b",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "MMR",
+    "antigen": [
+      "Measles",
+      "Mumps",
+      "Rubella"
+    ],
+    "key": "mmr",
+    "administerFullVaccineGroup": true
+  },
+  {
+    "name": "Pneumococcal",
+    "antigen": [
+      "Pneumococcal"
+    ],
+    "key": "pneumococcal",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Polio",
+    "antigen": [
+      "Polio"
+    ],
+    "key": "polio",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Rabies",
+    "antigen": [
+      "Rabies"
+    ],
+    "key": "rabies",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Rotavirus",
+    "antigen": [
+      "Rotavirus"
+    ],
+    "key": "rotavirus",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Typhoid",
+    "antigen": [
+      "Typhoid"
+    ],
+    "key": "typhoid",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Varicella",
+    "antigen": [
+      "Varicella"
+    ],
+    "key": "varicella",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Yellow Fever",
+    "antigen": [
+      "Yellow Fever"
+    ],
+    "key": "yellow-fever",
+    "administerFullVaccineGroup": false
+  },
+  {
+    "name": "Zoster",
+    "antigen": [
+      "Zoster"
+    ],
+    "key": "zoster",
+    "administerFullVaccineGroup": false
+  }
+]

@@ -2,12 +2,13 @@ import cors from "cors";
 import express from "express";
 import swaggerUi from "swagger-ui-express";
 import antigenRoutes from "./routes/antigenRoutes";
+import vaccineRoutes from './routes/vaccineRoutes';
 import testcaseRoutes from "./routes/testcaseRoutes";
-import scheduleRoutes from "./routes/scheduleRoutes";
 import observationRoutes from "./routes/observationRoutes";
 import swaggerDocument from "./swagger.json";
 import metadata from "./db/metadata.json";
-import { noCache, partialReply, searchReply, cleanReply, parseReply } from './middleware';
+
+import { noCache, partialReply, searchReply } from './middleware';
 
 const app = express();
 
@@ -19,14 +20,11 @@ app.use(cors());
 app.use(noCache);
 app.use(searchReply);
 app.use(partialReply);
-app.use(cleanReply);
-app.use(parseReply); 
 
 app.use("/api/antigens", antigenRoutes);
-app.use("/api/vaccines", scheduleRoutes);
+app.use("/api/vaccines", vaccineRoutes);
 app.use("/api/testcases", testcaseRoutes);
 app.use("/api/observations", observationRoutes);
-
 app.use("/api/about", (req, res) => {
     res.json(metadata)
 });

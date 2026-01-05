@@ -1,31 +1,17 @@
-import antigens from '../db/antigens.json';
+
 import { Request, Response } from "express";
-import kebabCase from 'just-kebab-case';
 
-const toSymbol = str => {
-    if (str.length === 3) str = str.toLowerCase();
-    return kebabCase(str).toUpperCase();
-}
+import { readDb } from '../lib/db'
+import antigens from '../db/antigens.json';
 
-const keyMap = {}
-Object.keys(antigens).forEach(x => {
-    keyMap[x.toLowerCase()] = x;
-    keyMap[toSymbol(x).toLowerCase()] = x;
-})
-
-const getKey = str => {
-    return keyMap[str.replace(':', '').toLowerCase()]
-}
-
-export const getAntigenNames = (req: Request, res: Response, next: () => void) => {
-    const names = Object.keys(antigens);
-    res.send(names);
+export const getAntigens = (req: Request, res: Response, next: () => void) => {
+    res.send(antigens);
 };
 
 export const getAntigenByName = (req: Request, res: Response, next: () => void) => {
     const { name } = req.params;
 
-    const data = antigens[getKey(name)];
+    const data = readDb(name, antigens)
     if (!!!data) res.sendStatus(404);
 
     res.json(data);
@@ -34,7 +20,7 @@ export const getAntigenByName = (req: Request, res: Response, next: () => void) 
 export const getSeriesByAntigenName = (req: Request, res: Response, next: () => void) => {
     const { name } = req.params;
 
-    const data = antigens[getKey(name)];
+    const data = readDb(name, antigens)
     if (!!!data) res.sendStatus(404);
 
     res.json(data.series);
@@ -43,7 +29,7 @@ export const getSeriesByAntigenName = (req: Request, res: Response, next: () => 
 export const getSeriesByAntigenNameAndIndex = (req: Request, res: Response, next: () => void) => {
     const { name, id } = req.params;
 
-    let data = antigens[getKey(name)];
+    let data = readDb(name, antigens)
     if (!!!data) res.sendStatus(404);
 
     const idx = parseInt(id);
@@ -56,7 +42,7 @@ export const getSeriesByAntigenNameAndIndex = (req: Request, res: Response, next
 export const getContraindicationsByAntigenName = (req: Request, res: Response, next: () => void) => {
     const { name } = req.params;
 
-    const data = antigens[getKey(name)];
+    let data = readDb(name, antigens)
     if (!!!data) res.sendStatus(404);
 
     res.json(data.contraindications);

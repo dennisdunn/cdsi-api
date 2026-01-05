@@ -1,4 +1,4 @@
 export * from "./antigenRoutes";
-export * from "./observationRoutes";
-export * from "./scheduleRoutes";
+export * from "./vaccineRoutes";
 export * from "./testcaseRoutes";
+export * from "./observationRoutes";

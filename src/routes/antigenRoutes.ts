@@ -7,6 +7,6 @@ router.get("/:name/contraindications", controller.getContraindicationsByAntigenN
 router.get("/:name/series/:id", controller.getSeriesByAntigenNameAndIndex);
 router.get("/:name/series", controller.getSeriesByAntigenName);
 router.get("/:name", controller.getAntigenByName);
-router.get("/", controller.getAntigenNames);
+router.get("/", controller.getAntigens);
 
 export default router;
