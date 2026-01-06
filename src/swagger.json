@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "<h3>Query Parameters</h3><p>The following query parameters can be added to the URL to adjust the response.</p><dl><dt>q</dt><dd>Return only the objects containing the given value.<i>&nbsp;&nbsp;/antigens/HepA/series?q=risk</i></dd></dl><dl><dt>fields</dt><dd>Return only the fields named in the parameter.<i>&nbsp;&nbsp;/antigens/HepA?fields=series</i></dd></dl>",
-    "version": "1.0.0",
+    "description": "<h3>Query Parameters</h3><p>The following query parameters can be added to the URL to adjust the response.</p><dl><dt>q</dt><dd>Return only the objects containing the given value.<i>&nbsp;&nbsp;/antigens/HepA/series?q=risk</i></dd></dl><dl><dt>fields</dt><dd>Return only the fields named in the parameter. This can be used to generate a catalog of resources.<i>&nbsp;&nbsp;/api/vaccines?fields=key,shortDescription</i></dd></dl>",
+    "version": "2.0.0",
     "title": "CDSi Supporting Data API"
   },
   "basePath": "/api",
