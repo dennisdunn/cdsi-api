@@ -23,7 +23,7 @@
     },
     "/antigens": {
       "get": {
-        "summary": "Get the names of known antigens.",
+        "summary": "Get the known antigens.",
         "responses": {
           "200": {
             "description": "Success"
@@ -149,7 +149,7 @@
     },
     "/observations": {
       "get": {
-        "summary": "Get the observation codes and descriptions.",
+        "summary": "Get all observations.",
         "responses": {
           "200": {
             "description": "Success"
@@ -159,7 +159,7 @@
     },
     "/vaccines": {
       "get": {
-        "summary": "Get the vaccine codes and descriptions.",
+        "summary": "Get all vaccines.",
         "responses": {
           "200": {
             "description": "Success"
@@ -235,7 +235,7 @@
     },
     "/vaccines/groups": {
       "get": {
-        "summary": "Get the vaccine group names.",
+        "summary": "Get all vaccine groups.",
         "responses": {
           "200": {
             "description": "Success"
@@ -289,7 +289,7 @@
     },
     "/testcases": {
       "get": {
-        "summary": "Get a list of the testcases.",
+        "summary": "Get all testcases.",
         "responses": {
           "200": {
             "description": "Success"
