@@ -1,10 +1,14 @@
 import { Request, Response } from "express";
 
-import { readDb } from '../lib/db'
-
 import groups from '../db/groups.json';
 import vaccines from '../db/vaccines.json';
+import catalog from '../db/catalog'
 
+import { readDb } from '../lib/db'
+
+export const getVaccineCatalog = (req: Request, res: Response, next: () => void) => {
+    res.send(catalog.vaccines);
+};
 
 export const getVaccines = (req: Request, res: Response, next: () => void) => {
     res.send(vaccines);

@@ -3,6 +3,7 @@ import * as controller from "../controllers/vaccineController";
 
 const router = express.Router();
 
+router.get("/catalog", controller.getVaccineCatalog)
 router.get("/groups/:name/antigens", controller.getVaccineGroupAntigensByName)
 router.get("/groups/:name", controller.getVaccineGroupByName)
 router.get("/groups", controller.getVaccineGroups)

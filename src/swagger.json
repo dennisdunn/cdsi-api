@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "<h3>Query Parameters</h3><p>The following query parameters can be added to the URL to adjust the response.</p><dl><dt>q</dt><dd>Return only the objects containing the given value.<i>&nbsp;&nbsp;/antigens/HepA/series?q=risk</i></dd></dl><dl><dt>fields</dt><dd>Return only the fields named in the parameter. This can be used to generate a catalog of resources.<i>&nbsp;&nbsp;/api/vaccines?fields=key,shortDescription</i></dd></dl>",
-    "version": "2.0.0",
+    "description": "<h3>Query Parameters</h3><p>The following query parameters can be added to the URL to adjust the response.</p><dl><dt>q</dt><dd>Return only the objects containing the given value.<i>&nbsp;&nbsp;/antigens/HepA/series?q=risk</i></dd></dl><dl><dt>fields</dt><dd>Return only the fields named in the parameter.<i>&nbsp;&nbsp;/api/vaccines?fields=key,shortDescription</i></dd></dl>",
+    "version": "2.1.0",
     "title": "CDSi Supporting Data API"
   },
   "basePath": "/api",
@@ -13,7 +13,17 @@
   "paths": {
     "/about": {
       "get": {
-        "summary": "Get information about the API.",
+        "summary": "Get information about versions of the data resources.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/catalog": {
+      "get": {
+        "summary": "Get a catalog of the available resources.",
         "responses": {
           "200": {
             "description": "Success"
@@ -24,6 +34,16 @@
     "/antigens": {
       "get": {
         "summary": "Get the known antigens.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/antigens/catalog": {
+      "get": {
+        "summary": "Get a catalog of the known antigens.",
         "responses": {
           "200": {
             "description": "Success"
@@ -125,6 +145,26 @@
         }
       }
     },
+    "/observations": {
+      "get": {
+        "summary": "Get all observations.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/observations/catalog": {
+      "get": {
+        "summary": "Get a catalog of all observations.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/observations/{code}": {
       "get": {
         "summary": "Get the identified observation.",
@@ -147,9 +187,9 @@
         }
       }
     },
-    "/observations": {
+    "/vaccines": {
       "get": {
-        "summary": "Get all observations.",
+        "summary": "Get all vaccines.",
         "responses": {
           "200": {
             "description": "Success"
@@ -157,9 +197,9 @@
         }
       }
     },
-    "/vaccines": {
+    "/vaccines/catalog": {
       "get": {
-        "summary": "Get all vaccines.",
+        "summary": "Get a catalog of the known vaccines.",
         "responses": {
           "200": {
             "description": "Success"
@@ -290,6 +330,16 @@
     "/testcases": {
       "get": {
         "summary": "Get all testcases.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/testcases/catalog": {
+      "get": {
+        "summary": "Get a catalog of the testcases.",
         "responses": {
           "200": {
             "description": "Success"

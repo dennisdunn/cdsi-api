@@ -3,6 +3,7 @@ import * as controller from "../controllers/observationController";
 
 const router = express.Router();
 
+router.get("/catalog", controller.getObservationCatalog)
 router.get("/:code", controller.getObservationByCode);
 router.get("/", controller.getObservations);
 

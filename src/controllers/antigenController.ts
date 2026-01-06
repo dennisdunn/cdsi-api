@@ -3,6 +3,11 @@ import { Request, Response } from "express";
 
 import { readDb } from '../lib/db'
 import antigens from '../db/antigens.json';
+import catalog from '../db/catalog'
+
+export const getAntigenCatalog =  (req: Request, res: Response, next: () => void) => {
+    res.send(catalog.antigens);
+};
 
 export const getAntigens = (req: Request, res: Response, next: () => void) => {
     res.send(antigens);

@@ -3,6 +3,7 @@ import * as controller from "../controllers/antigenController";
 
 const router = express.Router();
 
+router.get("/catalog", controller.getAntigenCatalog)
 router.get("/:name/contraindications", controller.getContraindicationsByAntigenName);
 router.get("/:name/series/:id", controller.getSeriesByAntigenNameAndIndex);
 router.get("/:name/series", controller.getSeriesByAntigenName);

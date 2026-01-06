@@ -1,11 +1,11 @@
 import cors from "cors";
 import express from "express";
 import compression from "compression";
-import metadata from "./db/metadata.json";
 import swaggerUi from "swagger-ui-express";
 import swaggerDocument from "./swagger.json";
 import antigenRoutes from "./routes/antigenRoutes";
 import vaccineRoutes from './routes/vaccineRoutes';
+import metadataRoutes from "./routes/metadataRoutes";
 import testcaseRoutes from "./routes/testcaseRoutes";
 import observationRoutes from "./routes/observationRoutes";
 
@@ -22,12 +22,10 @@ app.use(compression());
 app.use(searchReply);
 app.use(partialReply);
 
+app.use("/api", metadataRoutes);
 app.use("/api/antigens", antigenRoutes);
 app.use("/api/vaccines", vaccineRoutes);
 app.use("/api/testcases", testcaseRoutes);
 app.use("/api/observations", observationRoutes);
-app.use("/api/about", (req, res) => {
-    res.json(metadata)
-});
 
 export default app;

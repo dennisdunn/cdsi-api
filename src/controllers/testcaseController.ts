@@ -1,6 +1,13 @@
 import { Request, Response } from "express";
 import testcases from '../db/testcases.json';
+import catalog from '../db/catalog'
+
 import {readDb} from '../lib/db';
+
+export const getTestcaseCatalog = (req: Request, res: Response, next: () => void) => {
+  res.json(catalog.testcases);
+};
+
 
 export const getTestcases = (req: Request, res: Response, next: () => void) => {
   res.json(testcases);
