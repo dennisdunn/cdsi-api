@@ -31,9 +31,9 @@
         }
       }
     },
-    "/antigens": {
+    "/antigens/catalog": {
       "get": {
-        "summary": "Get the known antigens.",
+        "summary": "Get a catalog of the known antigens.",
         "responses": {
           "200": {
             "description": "Success"
@@ -41,9 +41,9 @@
         }
       }
     },
-    "/antigens/catalog": {
+    "/antigens": {
       "get": {
-        "summary": "Get a catalog of the known antigens.",
+        "summary": "Get the known antigens.",
         "responses": {
           "200": {
             "description": "Success"
@@ -145,44 +145,12 @@
         }
       }
     },
-    "/observations": {
+    "/vaccines/catalog": {
       "get": {
-        "summary": "Get all observations.",
+        "summary": "Get a catalog of the known vaccines.",
         "responses": {
           "200": {
             "description": "Success"
-          }
-        }
-      }
-    },
-    "/observations/catalog": {
-      "get": {
-        "summary": "Get a catalog of all observations.",
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      }
-    },
-    "/observations/{code}": {
-      "get": {
-        "summary": "Get the identified observation.",
-        "parameters": [
-          {
-            "name": "code",
-            "required": true,
-            "type": "number",
-            "in": "path",
-            "description": "The observation code."
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success"
-          },
-          "404": {
-            "description": "The observation code is unknown."
           }
         }
       }
@@ -190,16 +158,6 @@
     "/vaccines": {
       "get": {
         "summary": "Get all vaccines.",
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      }
-    },
-    "/vaccines/catalog": {
-      "get": {
-        "summary": "Get a catalog of the known vaccines.",
         "responses": {
           "200": {
             "description": "Success"
@@ -273,6 +231,16 @@
         }
       }
     },
+    "/vaccines/groups/catalog": {
+      "get": {
+        "summary": "Get a catalog of the vaccine groups.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/vaccines/groups": {
       "get": {
         "summary": "Get all vaccine groups.",
@@ -327,9 +295,9 @@
         }
       }
     },
-    "/testcases": {
+    "/observations/catalog": {
       "get": {
-        "summary": "Get all testcases.",
+        "summary": "Get a catalog of all observations.",
         "responses": {
           "200": {
             "description": "Success"
@@ -337,9 +305,51 @@
         }
       }
     },
+    "/observations": {
+      "get": {
+        "summary": "Get all observations.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/observations/{code}": {
+      "get": {
+        "summary": "Get the identified observation.",
+        "parameters": [
+          {
+            "name": "code",
+            "required": true,
+            "type": "number",
+            "in": "path",
+            "description": "The observation code."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "404": {
+            "description": "The observation code is unknown."
+          }
+        }
+      }
+    },
     "/testcases/catalog": {
       "get": {
         "summary": "Get a catalog of the testcases.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/testcases": {
+      "get": {
+        "summary": "Get all testcases.",
         "responses": {
           "200": {
             "description": "Success"

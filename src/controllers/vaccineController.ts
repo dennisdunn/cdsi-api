@@ -41,6 +41,9 @@ export const getVaccineAntigensByCvx = (req: Request, res: Response, next: () =>
     res.json(data.association.map(item => item.antigen));
 };
 
+export const getVaccineGroupsCatalog = (req: Request, res: Response, next: () => void) => {
+    res.send(catalog.groups);
+};
 
 export const getVaccineGroups = (req: Request, res: Response, next: () => void) => {
     res.json(groups);
