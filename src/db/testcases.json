@@ -40718,11 +40718,7 @@
       "medHistoryText": null
     },
     "reasonForChange": null,
-    "testcaseName": {
-      "year": 2016,
-      "month": 12,
-      "date": 16
-    },
+    "testcaseName": "Dose 1 to dose 3 interval 16 weeks=valid when administered prior to 12/16/2016",
     "vaccineGroup": "HPV",
     "key": "2013-0475"
   },
@@ -47477,11 +47473,7 @@
       "medHistoryText": null
     },
     "reasonForChange": "New test case for version 2.0 which expanded scope into Adult recommendations",
-    "testcaseName": {
-      "year": 1957,
-      "month": 1,
-      "date": 1
-    },
+    "testcaseName": "MMR: Patient is born before 01/01/1957",
     "vaccineGroup": "MMR",
     "key": "2015-0024"
   },
