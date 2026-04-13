@@ -1,15 +1,8 @@
 {
-  "source": "https://www.cdc.gov/vaccines/programs/iis/cdsi.html",
-  "specification": {
-    "version": 4.1,
-    "description":"Clinical Decision Support for Immunization (CDSi): Logic Specification for ACIP Recommendations"
-  },
-  "supportingData": {
-    "version": 4.5,
-    "description":"Supporting Data (schedule and antigens)"
-  },
-  "testcaseData": {
-    "version": 4.4,
-    "description":"CDSi Test Cases – Healthy Childhood and Adult"
-  }
+  "suportingDataVersion": "4.62",
+  "logicSpecVersion": "4.6",
+  "testcaseVersion": "4.43",
+  "suportingDataUrl": "https://www.cdc.gov/iis/downloads/supporting-data-4.62-508.zip",
+  "logicSpecUrl": "https://www.cdc.gov/iis/downloads/logic-spec-acip-rec-4.6.pdf",
+  "testcaseUrl": "https://www.cdc.gov/iis/downloads/cdsi-healthy-childhood-and-adult-test-cases-v4.43.xlsx"
 }

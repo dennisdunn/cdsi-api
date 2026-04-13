@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
-import observations from "../db/observations.json";
-import catalog from "../db/catalog"
+import { observations, catalog } from "../db";
 
 import { readDb } from '../lib/db'
 

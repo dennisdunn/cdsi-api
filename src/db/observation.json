@@ -1,0 +1,5273 @@
+[
+  {
+    "key": 1,
+    "observationCode": "001",
+    "observationTitle": "Patient seeks protection",
+    "group": "",
+    "indicationText": "Administer to persons seeking protection.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 2,
+    "observationCode": "002",
+    "observationTitle": "Undergoing elective splenectomy",
+    "group": "",
+    "indicationText": "Administer to persons who are undergoing elective splenectomy if they have not previously received the vaccine.",
+    "contraindicationText": "",
+    "clarifyingText": "Vaccination 14 or more days before splenectomy is suggested",
+    "codedValues": []
+  },
+  {
+    "key": 3,
+    "observationCode": "003",
+    "observationTitle": "Immunocompromised",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient is immunocompromised.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "370388006",
+        "codeSystem": "SNOMED",
+        "text": "Patient Immunocompromised"
+      },
+      {
+        "code": "VXC27",
+        "codeSystem": "CDCPHINVS",
+        "text": "Immunodeficiency due to any cause"
+      }
+    ]
+  },
+  {
+    "key": 4,
+    "observationCode": "004",
+    "observationTitle": "Recipient of a hematopoietic stem cell transplant",
+    "group": "",
+    "indicationText": "Administer to recipients of a hematopoietic stem cell transplant [HSCT] 6 to 12 months after a successful transplant, regardless of vaccination history.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "234336002",
+        "codeSystem": "SNOMED",
+        "text": "Hemopoietic stem cell transplant [procedure]"
+      },
+      {
+        "code": "23719005",
+        "codeSystem": "SNOMED",
+        "text": "Transplantation of bone marrow [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 5,
+    "observationCode": "005",
+    "observationTitle": "Hepatitis C virus infection",
+    "group": "",
+    "indicationText": "Administer to persons with a hepatitis C virus infection.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "50711007",
+        "codeSystem": "SNOMED",
+        "text": "Viral hepatitis type C [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 6,
+    "observationCode": "006",
+    "observationTitle": "Receives clotting factor concentrates",
+    "group": "",
+    "indicationText": "Administer to persons who receive clotting factor concentrates.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 7,
+    "observationCode": "007",
+    "observationTitle": "Pregnant",
+    "group": "",
+    "indicationText": "Administer to persons who are pregnant.",
+    "contraindicationText": "Do not vaccinate if the patient is pregnant.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "77386006",
+        "codeSystem": "SNOMED",
+        "text": "Patient currently pregnant [finding]"
+      },
+      {
+        "code": "102874004",
+        "codeSystem": "SNOMED",
+        "text": "Possible pregnancy [finding]"
+      },
+      {
+        "code": "255409004",
+        "codeSystem": "SNOMED",
+        "text": "Pregnant woman [person]"
+      }
+    ]
+  },
+  {
+    "key": 8,
+    "observationCode": "008",
+    "observationTitle": "Travel to an area of active cholera transmission",
+    "group": "",
+    "indicationText": "Administer to travelers from the United States traveling to an area of active cholera transmission.",
+    "contraindicationText": "",
+    "clarifyingText": "An area of active cholera transmission is defined as a province, state, or other administrative subdivision within a country with endemic or epidemic cholera caused by toxigenic V. cholerae O1 and includes areas with cholera activity within the last year that are prone to recurrence of cholera epidemics; it does not include areas where only rare imported or sporadic cases have been reported.",
+    "codedValues": []
+  },
+  {
+    "key": 9,
+    "observationCode": "009",
+    "observationTitle": "Breastfeeding",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient is breastfeeding.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "413712001",
+        "codeSystem": "SNOMED",
+        "text": "Breastfeeding [mother] [observable entity]"
+      }
+    ]
+  },
+  {
+    "key": 10,
+    "observationCode": "010",
+    "observationTitle": "Cerebrospinal fluid leaks",
+    "group": "",
+    "indicationText": "Administer to persons who have cerebrospinal fluid leaks.",
+    "contraindicationText": "Do not vaccinate if the patient has cerebrospinal fluid leaks.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "230744007",
+        "codeSystem": "SNOMED",
+        "text": "Cerebrospinal fluid leak [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 11,
+    "observationCode": "011",
+    "observationTitle": "Cochlear implants",
+    "group": "",
+    "indicationText": "Administer to persons who have cochlear implants.",
+    "contraindicationText": "Do not vaccinate if the patient has cochlear implants.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "449840001",
+        "codeSystem": "SNOMED",
+        "text": "Cochlear prosthesis in situ [finding]"
+      },
+      {
+        "code": "43252007",
+        "codeSystem": "SNOMED",
+        "text": "Cochlear prosthesis, device [physical object]"
+      },
+      {
+        "code": "359612003",
+        "codeSystem": "SNOMED",
+        "text": "Implantation of cochlear prosthetic device [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 12,
+    "observationCode": "012",
+    "observationTitle": "Family history of altered immunocompetence",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has a family history of altered immunocompetence",
+    "clarifyingText": "Harmonizes with the vaccine-specific statements in accommodating infants and toddlers with occult heritable congenital immunodeficiencies.",
+    "codedValues": []
+  },
+  {
+    "key": 13,
+    "observationCode": "013",
+    "observationTitle": "Severe Combined Immunodeficiency [SCID]",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has Severe Combined Immunodeficiency [SCID].",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "31323000",
+        "codeSystem": "SNOMED",
+        "text": "Severe combined immunodeficiency disease [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 14,
+    "observationCode": "014",
+    "observationTitle": "Diabetes",
+    "group": "",
+    "indicationText": "Administer to persons who have diabetes.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "73211009",
+        "codeSystem": "SNOMED",
+        "text": "Diabetes mellitus [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 15,
+    "observationCode": "015",
+    "observationTitle": "Chronic liver disease",
+    "group": "",
+    "indicationText": "Administer to persons who have chronic liver disease.",
+    "contraindicationText": "",
+    "clarifyingText": "Includes cirrhosis",
+    "codedValues": [
+      {
+        "code": "328383001",
+        "codeSystem": "SNOMED",
+        "text": "Chronic liver disease [disorder]"
+      },
+      {
+        "code": "19943007",
+        "codeSystem": "SNOMED",
+        "text": "Cirrhosis of liver [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 16,
+    "observationCode": "016",
+    "observationTitle": "Chronic heart disease",
+    "group": "",
+    "indicationText": "Administer to persons who have chronic heart disease.",
+    "contraindicationText": "Do not vaccinate persons who have chronic heart disease.",
+    "clarifyingText": "e.g. congestive heart failure and cardiomyopathies, excluding hypertension",
+    "codedValues": [
+      {
+        "code": "128238001",
+        "codeSystem": "SNOMED",
+        "text": "Chronic heart disease [disorder]"
+      },
+      {
+        "code": "42343007",
+        "codeSystem": "SNOMED",
+        "text": "Congestive heart failure [disorder]"
+      },
+      {
+        "code": "57809008",
+        "codeSystem": "SNOMED",
+        "text": "Myocardial disease [disorder]"
+      },
+      {
+        "code": "12770006",
+        "codeSystem": "SNOMED",
+        "text": "Cyanotic congenital heart disease [disorder]"
+      },
+      {
+        "code": "53741008",
+        "codeSystem": "SNOMED",
+        "text": "Coronary arteriosclerosis [disorder]"
+      },
+      {
+        "code": "79619009",
+        "codeSystem": "SNOMED",
+        "text": "Mitral valve stenosis [disorder]"
+      },
+      {
+        "code": "698247007",
+        "codeSystem": "SNOMED",
+        "text": "Cardiac arrhythmia [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 17,
+    "observationCode": "017",
+    "observationTitle": "Chronic lung disease",
+    "group": "",
+    "indicationText": "Administer to persons who have chronic lung disease.",
+    "contraindicationText": "",
+    "clarifyingText": "e.g. chronic obstructive lung disease, emphysema but not asthma",
+    "codedValues": [
+      {
+        "code": "413839001",
+        "codeSystem": "SNOMED",
+        "text": "Chronic lung disease [disorder]"
+      },
+      {
+        "code": "13645005",
+        "codeSystem": "SNOMED",
+        "text": "Chronic obstructive lung disease [disorder]"
+      },
+      {
+        "code": "87433001",
+        "codeSystem": "SNOMED",
+        "text": "Pulmonary emphysema [disorder]"
+      },
+      {
+        "code": "39871006",
+        "codeSystem": "SNOMED",
+        "text": "Chronic respiratory failure [disorder]"
+      },
+      {
+        "code": "427896006",
+        "codeSystem": "SNOMED",
+        "text": "Chronic respiratory insufficiency [disorder]"
+      },
+      {
+        "code": "17097001",
+        "codeSystem": "SNOMED",
+        "text": "Chronic disease of respiratory system [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 18,
+    "observationCode": "018",
+    "observationTitle": "Laboratory Evidence of Immunity or confirmation of Hepatitis A disease",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "278971009",
+        "codeSystem": "SNOMED",
+        "text": "Hepatitis A Immune [Finding]"
+      }
+    ]
+  },
+  {
+    "key": 19,
+    "observationCode": "019",
+    "observationTitle": "Laboratory Evidence of Immunity or confirmation of Hepatitis B disease",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "271511000",
+        "codeSystem": "SNOMED",
+        "text": "Hepatitis B Immune [Finding]"
+      }
+    ]
+  },
+  {
+    "key": 20,
+    "observationCode": "020",
+    "observationTitle": "Laboratory Evidence of Immunity for Measles",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "371111005",
+        "codeSystem": "SNOMED",
+        "text": "Measles Immune [finding]"
+      }
+    ]
+  },
+  {
+    "key": 21,
+    "observationCode": "021",
+    "observationTitle": "Laboratory Evidence of Immunity for Mumps",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "371112003",
+        "codeSystem": "SNOMED",
+        "text": "Mumps Immune [finding]"
+      }
+    ]
+  },
+  {
+    "key": 22,
+    "observationCode": "022",
+    "observationTitle": "Laboratory Evidence of Immunity for Rubella",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "278968001",
+        "codeSystem": "SNOMED",
+        "text": "Rubella Immune [finding]"
+      }
+    ]
+  },
+  {
+    "key": 23,
+    "observationCode": "023",
+    "observationTitle": "Laboratory Evidence of Immunity or confirmation of Varicella disease",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "371113008",
+        "codeSystem": "SNOMED",
+        "text": "Varicella Immune"
+      }
+    ]
+  },
+  {
+    "key": 24,
+    "observationCode": "024",
+    "observationTitle": "Healthcare provider verified history of or diagnosis of Varicella",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "38907003",
+        "codeSystem": "SNOMED",
+        "text": "Varicella [Disorder]"
+      }
+    ]
+  },
+  {
+    "key": 25,
+    "observationCode": "025",
+    "observationTitle": "Healthcare provider verified history or diagnosis of Herpes Zoster",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "4740000",
+        "codeSystem": "SNOMED",
+        "text": "Herpes Zoster [Disorder]"
+      }
+    ]
+  },
+  {
+    "key": 26,
+    "observationCode": "026",
+    "observationTitle": "Persons with perinatal HIV infection who do not have evidence of severe immunosuppression and who were vaccinated with MMR before establishment of antiviral therapy [ART]",
+    "group": "",
+    "indicationText": "Administer to persons with perinatal HIV infection who do not have evidence of severe immunosuppression and who were vaccinated with MMR before establishment of antiviral therapy [ART].",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "86406008",
+        "codeSystem": "SNOMED",
+        "text": "Human immunodeficiency virus infection [disorder]"
+      },
+      {
+        "code": "427314002",
+        "codeSystem": "SNOMED",
+        "text": "Antiviral therapy [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 27,
+    "observationCode": "027",
+    "observationTitle": "Asthma",
+    "group": "",
+    "indicationText": "Administer to persons who have asthma.",
+    "contraindicationText": "Do not vaccinate if the patient has asthma.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "390798007",
+        "codeSystem": "SNOMED",
+        "text": "Asthma finding [finding]"
+      },
+      {
+        "code": "195967001",
+        "codeSystem": "SNOMED",
+        "text": "Asthma [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 28,
+    "observationCode": "028",
+    "observationTitle": "Intussusception",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has intussusception.",
+    "clarifyingText": "Includes history of uncorrected congenital malformation of the gastrointestinal tract that would predispose the infant to intussusception or history of intussusception.",
+    "codedValues": [
+      {
+        "code": "35327006",
+        "codeSystem": "SNOMED",
+        "text": "Intussusception [morphologic abnormality]"
+      },
+      {
+        "code": "49723003",
+        "codeSystem": "SNOMED",
+        "text": "Intussusception of intestine [disorder]"
+      },
+      {
+        "code": "VXC21",
+        "codeSystem": "CDCPHINVS",
+        "text": "Previous history of intussusception"
+      }
+    ]
+  },
+  {
+    "key": 29,
+    "observationCode": "029",
+    "observationTitle": "Acute gastroenteritis",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has acute gastroenteritis.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "69776003",
+        "codeSystem": "SNOMED",
+        "text": "Acute gastroenteritis [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 30,
+    "observationCode": "030",
+    "observationTitle": "Acute febrile illness",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has acute febrile illness.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 31,
+    "observationCode": "031",
+    "observationTitle": "Tuberculosis",
+    "group": "",
+    "indicationText": "Administer to persons who have tuberculosis",
+    "contraindicationText": "Do not vaccinate if the patient has active untreated tuberculosis.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "56717001",
+        "codeSystem": "SNOMED",
+        "text": "Tuberculosis [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 32,
+    "observationCode": "032",
+    "observationTitle": "Dialysis patient",
+    "group": "",
+    "indicationText": "Administer to hemodialysis patients and predialysis, peritoneal dialysis, and home dialysis patients",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 33,
+    "observationCode": "033",
+    "observationTitle": "Taken influenza antiviral medications within the previous 48 hours",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has taken influenza antiviral medications  within the previous 48 hours.",
+    "clarifyingText": "e.g. amantadine, rimantadine, zanamivir, or oseltamivir",
+    "codedValues": [
+      {
+        "code": "372763006",
+        "codeSystem": "SNOMED",
+        "text": "Amantadine [substance]"
+      },
+      {
+        "code": "51361008",
+        "codeSystem": "SNOMED",
+        "text": "Amantadine [product]"
+      },
+      {
+        "code": "372532009",
+        "codeSystem": "SNOMED",
+        "text": "Rimantadine [substance]"
+      },
+      {
+        "code": "108712009",
+        "codeSystem": "SNOMED",
+        "text": "Rimantadine [product]"
+      },
+      {
+        "code": "387010007",
+        "codeSystem": "SNOMED",
+        "text": "Zanamivir [substance]"
+      },
+      {
+        "code": "116100000",
+        "codeSystem": "SNOMED",
+        "text": "Zanamivir [product]"
+      },
+      {
+        "code": "412261005",
+        "codeSystem": "SNOMED",
+        "text": "Oseltamivir [substance]"
+      },
+      {
+        "code": "386142008",
+        "codeSystem": "SNOMED",
+        "text": "Oseltamivir [product]"
+      }
+    ]
+  },
+  {
+    "key": 34,
+    "observationCode": "034",
+    "observationTitle": "Receiving long-term aspirin therapy",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient is receiving long-term aspirin therapy.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "405742008",
+        "codeSystem": "SNOMED",
+        "text": "Aspirin therapy finding [finding]"
+      }
+    ]
+  },
+  {
+    "key": 35,
+    "observationCode": "035",
+    "observationTitle": "Antimicrobial or antimalarial taken within 72 hours",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient  has taken antimicrobial or antimalarial medications  within the previous 72 hours.",
+    "clarifyingText": "A longer interval should be considered for long-acting antimicrobials [e.g., the antimalarial agents mefloquine and chloroquine and the combinations atovaquone/proguanil and pyrimethamine/sulfadoxine can, at doses used for prophylaxis, be administered together with the Ty21a vaccine; however, the manufacturer advises that other antimalarial agents only be administered at least 3 days after the last vaccine dose).",
+    "codedValues": []
+  },
+  {
+    "key": 36,
+    "observationCode": "036",
+    "observationTitle": "Men who have sex with men",
+    "group": "",
+    "indicationText": "Administer to men who have sex with men.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "76102007",
+        "codeSystem": "SNOMED",
+        "text": "Male homosexual [finding]"
+      },
+      {
+        "code": "225531006",
+        "codeSystem": "SNOMED",
+        "text": "Homosexual behavior [finding]"
+      }
+    ]
+  },
+  {
+    "key": 37,
+    "observationCode": "037",
+    "observationTitle": "Not in a long-term, mutually monogamous relationship",
+    "group": "",
+    "indicationText": "Administer to persons not in a long-term, mutually monogamous relationship.",
+    "contraindicationText": "",
+    "clarifyingText": "e.g. persons with more than 1 sex partner during the previous 6 months",
+    "codedValues": [
+      {
+        "code": "225516002",
+        "codeSystem": "SNOMED",
+        "text": "Multiple sexual contacts [finding]"
+      },
+      {
+        "code": "228460004",
+        "codeSystem": "SNOMED",
+        "text": "Multiple current sexual partners [finding]"
+      },
+      {
+        "code": "228466005",
+        "codeSystem": "SNOMED",
+        "text": "Commitment to sexual relationship [observable entity]"
+      }
+    ]
+  },
+  {
+    "key": 38,
+    "observationCode": "038",
+    "observationTitle": "Sex partner of Hepatitis B surface antigen-positive persons",
+    "group": "",
+    "indicationText": "Administer to persons who are a sex partner of a Hepatitis B surface antigen-positive person.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "225517006",
+        "codeSystem": "SNOMED",
+        "text": "Sexual partners [observable entity]"
+      },
+      {
+        "code": "11723008",
+        "codeSystem": "SNOMED",
+        "text": "Contact with [contextual qualifier] [qualifier value]"
+      },
+      {
+        "code": "165806002",
+        "codeSystem": "SNOMED",
+        "text": "Hepatitis B surface antigen positive [finding]"
+      }
+    ]
+  },
+  {
+    "key": 39,
+    "observationCode": "039",
+    "observationTitle": "Receives treatment for STD",
+    "group": "",
+    "indicationText": "Administer to persons who receive treatment for STD.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "305489005",
+        "codeSystem": "SNOMED",
+        "text": "Under care of genitourinary medicine physician [finding]"
+      },
+      {
+        "code": "305679000",
+        "codeSystem": "SNOMED",
+        "text": "Seen by genitourinary medicine physician [finding]"
+      },
+      {
+        "code": "8098009",
+        "codeSystem": "SNOMED",
+        "text": "Sexually transmitted infectious disease [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 40,
+    "observationCode": "040",
+    "observationTitle": "Illicit drug use",
+    "group": "",
+    "indicationText": "Administer to persons who use illicit drugs.",
+    "contraindicationText": "",
+    "clarifyingText": "Includes injection and noninjection illicit drugs",
+    "codedValues": [
+      {
+        "code": "307052004",
+        "codeSystem": "SNOMED",
+        "text": "Illicit drug use [finding]"
+      },
+      {
+        "code": "228366006",
+        "codeSystem": "SNOMED",
+        "text": "Finding relating to drug misuse behavior [finding]"
+      }
+    ]
+  },
+  {
+    "key": 41,
+    "observationCode": "041",
+    "observationTitle": "Illicit injection drug use",
+    "group": "",
+    "indicationText": "Administer to persons who use illicit injection drugs.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "226034001",
+        "codeSystem": "SNOMED",
+        "text": "Injecting drug user [finding]"
+      },
+      {
+        "code": "228388006",
+        "codeSystem": "SNOMED",
+        "text": "Intravenous drug user  [finding]"
+      },
+      {
+        "code": "145101000119102",
+        "codeSystem": "SNOMED",
+        "text": "Intravenous cocaine abuse [disorder]"
+      },
+      {
+        "code": "403746009",
+        "codeSystem": "SNOMED",
+        "text": "Skin lesion due to intravenous drug abuse [disorder]"
+      },
+      {
+        "code": "860699005",
+        "codeSystem": "SNOMED",
+        "text": "Deep vein thrombosis of lower extremity due to intravenous drug use [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 42,
+    "observationCode": "042",
+    "observationTitle": "Smoke cigarettes",
+    "group": "",
+    "indicationText": "Administer to persons who smoke cigarettes.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "77176002",
+        "codeSystem": "SNOMED",
+        "text": "Smoker [finding]"
+      }
+    ]
+  },
+  {
+    "key": 43,
+    "observationCode": "043",
+    "observationTitle": "Alcoholism",
+    "group": "",
+    "indicationText": "Administer to persons who have alcoholism.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "228281002",
+        "codeSystem": "SNOMED",
+        "text": "Problem drinker [finding]"
+      },
+      {
+        "code": "7200002",
+        "codeSystem": "SNOMED",
+        "text": "Alcoholism [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 44,
+    "observationCode": "044",
+    "observationTitle": "Anticipate close personal contact with international adoptee",
+    "group": "",
+    "indicationText": "Administer to persons who anticipate close personal contact with an international adoptee during the first 60 days.",
+    "contraindicationText": "",
+    "clarifyingText": "e.g., household or regular babysitting\nApplies when adoptee is from a country with high or intermediate endemicity",
+    "codedValues": []
+  },
+  {
+    "key": 45,
+    "observationCode": "045",
+    "observationTitle": "Travel to country with a Yellow Fever vaccination entry requirement",
+    "group": "",
+    "indicationText": "Administer to persons who travel to a country with a Yellow Fever vaccination entry requirement.",
+    "contraindicationText": "",
+    "clarifyingText": " A list of country-specific requirements is available at https://wwwnc.cdc.gov/travel/yellowbook/2024/preparing/yellow-fever-vaccine-malaria-prevention-by-country",
+    "codedValues": []
+  },
+  {
+    "key": 46,
+    "observationCode": "046",
+    "observationTitle": "College students living in residence halls",
+    "group": "",
+    "indicationText": "Administer to college students living in residence halls.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 47,
+    "observationCode": "047",
+    "observationTitle": "Resident of area at risk for exposure to the disease",
+    "group": "",
+    "indicationText": "Administer to residents of an area at risk for exposure to the disease.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 48,
+    "observationCode": "048",
+    "observationTitle": "Travelling Internationally",
+    "group": "",
+    "indicationText": "Administer to persons who will be travelling internationally.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 49,
+    "observationCode": "049",
+    "observationTitle": "Working with Hepatitis A virus in research setting",
+    "group": "",
+    "indicationText": "Administer to persons who work with Hepatitis A virus in a research setting.",
+    "contraindicationText": "",
+    "clarifyingText": "Includes working with HAV-infected primates or with HAV in a research laboratory setting",
+    "codedValues": []
+  },
+  {
+    "key": 50,
+    "observationCode": "050",
+    "observationTitle": "Microbiologists routinely exposed to Neisseria meningitidis",
+    "group": "",
+    "indicationText": "Administer to microbiologists routinely exposed to isolates of Neisseria meningitidis.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "159138004",
+        "codeSystem": "SNOMED",
+        "text": "Microbiologist [occupation]"
+      },
+      {
+        "code": "14698002",
+        "codeSystem": "SNOMED",
+        "text": "Medical microbiologist [occupation]"
+      },
+      {
+        "code": "24932003",
+        "codeSystem": "SNOMED",
+        "text": "Exposure to [contextual qualifier] [qualifier value]"
+      },
+      {
+        "code": "17872004",
+        "codeSystem": "SNOMED",
+        "text": "Neisseria meningitidis [organism]"
+      }
+    ]
+  },
+  {
+    "key": 51,
+    "observationCode": "051",
+    "observationTitle": "Microbiology laboratorians who work frequently with S. typhi",
+    "group": "",
+    "indicationText": "Administer to persons who are microbiology laboratorians who work frequently with S. typhi.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "159138004",
+        "codeSystem": "SNOMED",
+        "text": "Microbiologist [occupation]"
+      },
+      {
+        "code": "14698002",
+        "codeSystem": "SNOMED",
+        "text": "Medical microbiologist [occupation]"
+      },
+      {
+        "code": "159282002",
+        "codeSystem": "SNOMED",
+        "text": "Laboratory technician [occupation]"
+      },
+      {
+        "code": "24932003",
+        "codeSystem": "SNOMED",
+        "text": "Exposure to [contextual qualifier] [qualifier value]"
+      },
+      {
+        "code": "5595000",
+        "codeSystem": "SNOMED",
+        "text": "Salmonella Typhi [organism]"
+      }
+    ]
+  },
+  {
+    "key": 52,
+    "observationCode": "052",
+    "observationTitle": "Laboratory personnel who might be exposed to YFV",
+    "group": "",
+    "indicationText": "Administer to laboratory personnel who might be exposed to virulent YFV or to concentrated preparations of YF vaccine virus strains by direct or indirect contact or by aerosols.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "159282002",
+        "codeSystem": "SNOMED",
+        "text": "Laboratory technician [occupation]"
+      },
+      {
+        "code": "24932003",
+        "codeSystem": "SNOMED",
+        "text": "Exposure to [contextual qualifier] [qualifier value]"
+      },
+      {
+        "code": "26630006",
+        "codeSystem": "SNOMED",
+        "text": "Yellow fever virus [organism]"
+      }
+    ]
+  },
+  {
+    "key": 53,
+    "observationCode": "053",
+    "observationTitle": "Rabies researchers",
+    "group": "",
+    "indicationText": "Administer to Rabies researchers.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "159282002",
+        "codeSystem": "SNOMED",
+        "text": "Laboratory technician [occupation]"
+      },
+      {
+        "code": "24932003",
+        "codeSystem": "SNOMED",
+        "text": "Exposure to [contextual qualifier] [qualifier value]"
+      },
+      {
+        "code": "59881000",
+        "codeSystem": "SNOMED",
+        "text": "Rabies virus [organism]"
+      }
+    ]
+  },
+  {
+    "key": 54,
+    "observationCode": "054",
+    "observationTitle": "Laboratory workers who handle specimens that might contain polioviruses",
+    "group": "",
+    "indicationText": "Administer to laboratory workers who handle specimens that might contain polioviruses.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "159282002",
+        "codeSystem": "SNOMED",
+        "text": "Laboratory technician [occupation]"
+      },
+      {
+        "code": "24932003",
+        "codeSystem": "SNOMED",
+        "text": "Exposure to [contextual qualifier] [qualifier value]"
+      },
+      {
+        "code": "44172002",
+        "codeSystem": "SNOMED",
+        "text": "Human poliovirus [organism]"
+      }
+    ]
+  },
+  {
+    "key": 55,
+    "observationCode": "055",
+    "observationTitle": "Health care personnel",
+    "group": "",
+    "indicationText": "Administer to healthcare personnel without evidence of immunity.",
+    "contraindicationText": "",
+    "clarifyingText": "A general definition of health care personnel is given in the National Healthcare Safety Network [NHSN] manual [https://www.cdc.gov/nhsn/pdfs/hps-manual/hps_manual-exp-plus-flu-portfolio.pdf] in the definitions section.",
+    "codedValues": [
+      {
+        "code": "223366009",
+        "codeSystem": "SNOMED",
+        "text": "Healthcare professional [occupation]"
+      }
+    ]
+  },
+  {
+    "key": 56,
+    "observationCode": "056",
+    "observationTitle": "Health-care workers who have close contact with patients who might be excreting wild polioviruses",
+    "group": "",
+    "indicationText": "Administer to health-care workers who have close contact with patients who might be excreting wild polioviruses.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "223366009",
+        "codeSystem": "SNOMED",
+        "text": "Healthcare professional [occupation]"
+      },
+      {
+        "code": "24932003",
+        "codeSystem": "SNOMED",
+        "text": "Exposure to [contextual qualifier] [qualifier value]"
+      },
+      {
+        "code": "44172002",
+        "codeSystem": "SNOMED",
+        "text": "Human poliovirus [organism]"
+      }
+    ]
+  },
+  {
+    "key": 57,
+    "observationCode": "057",
+    "observationTitle": "Public safety worker exposed to blood or infection body fluids",
+    "group": "",
+    "indicationText": "Administer to public safety workers exposed to blood or infection body fluids",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "26369006",
+        "codeSystem": "SNOMED",
+        "text": "Public health nurse [occupation]"
+      },
+      {
+        "code": "68867008",
+        "codeSystem": "SNOMED",
+        "text": "Public health dentist [occupation]"
+      },
+      {
+        "code": "307969004",
+        "codeSystem": "SNOMED",
+        "text": "Public health officer [occupation]"
+      },
+      {
+        "code": "56466003",
+        "codeSystem": "SNOMED",
+        "text": "Public health physician [occupation]"
+      },
+      {
+        "code": "56079002",
+        "codeSystem": "SNOMED",
+        "text": "Public health veterinarian [occupation]"
+      },
+      {
+        "code": "60008001",
+        "codeSystem": "SNOMED",
+        "text": "Public health nutritionist [occupation]"
+      },
+      {
+        "code": "24932003",
+        "codeSystem": "SNOMED",
+        "text": "Exposure to [contextual qualifier] [qualifier value]"
+      },
+      {
+        "code": "87612001",
+        "codeSystem": "SNOMED",
+        "text": "Blood [substance]"
+      },
+      {
+        "code": "32457005",
+        "codeSystem": "SNOMED",
+        "text": "Body fluid [substance]"
+      }
+    ]
+  },
+  {
+    "key": 58,
+    "observationCode": "058",
+    "observationTitle": "Staff of institution for persons with developmental disabilities",
+    "group": "",
+    "indicationText": "Administer to staff of institution for persons with developmental disabilities",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 59,
+    "observationCode": "059",
+    "observationTitle": "Occupational exposure for Hepatitis A",
+    "group": "",
+    "indicationText": "Administer to persons who have an occupational exposure for Hepatitis A",
+    "contraindicationText": "",
+    "clarifyingText": "Consideration may be given to vaccination of employees who work in areas where state and local health authorities or private employers determine that such vaccination is appropriate.",
+    "codedValues": [
+      {
+        "code": "223366009",
+        "codeSystem": "SNOMED",
+        "text": "Healthcare professional [occupation]"
+      },
+      {
+        "code": "158942005",
+        "codeSystem": "SNOMED",
+        "text": "Residential child care worker [occupation]"
+      },
+      {
+        "code": "158939004",
+        "codeSystem": "SNOMED",
+        "text": "Child care officer [occupation]"
+      },
+      {
+        "code": "73851001",
+        "codeSystem": "SNOMED",
+        "text": "Plumber [general] [occupation]"
+      },
+      {
+        "code": "160157004",
+        "codeSystem": "SNOMED",
+        "text": "Sewerman [occupation]"
+      },
+      {
+        "code": "266006009",
+        "codeSystem": "SNOMED",
+        "text": "Food/drink processor [occupation]"
+      },
+      {
+        "code": "274272004",
+        "codeSystem": "SNOMED",
+        "text": "Catering services occupation [occupation]"
+      },
+      {
+        "code": "160133004",
+        "codeSystem": "SNOMED",
+        "text": "Packer - food/garden produce [occupation]"
+      }
+    ]
+  },
+  {
+    "key": 60,
+    "observationCode": "060",
+    "observationTitle": "Veterinarians and their staff",
+    "group": "",
+    "indicationText": "Administer to veterinarians and their staff.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "265940000",
+        "codeSystem": "SNOMED",
+        "text": "Animal health occupation [occupation]"
+      }
+    ]
+  },
+  {
+    "key": 61,
+    "observationCode": "061",
+    "observationTitle": "Animal handlers",
+    "group": "",
+    "indicationText": "Administer to animal handlers.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "159091009",
+        "codeSystem": "SNOMED",
+        "text": "Trainer - performing animals [occupation]"
+      }
+    ]
+  },
+  {
+    "key": 62,
+    "observationCode": "062",
+    "observationTitle": "Persons whose activities bring them into frequent contact with rabies virus or potentially rabid animals",
+    "group": "",
+    "indicationText": "Administer to persons whose activities bring them into frequent contact with rabies virus or potentially rabid animals.",
+    "contraindicationText": "",
+    "clarifyingText": "Occupational or recreational activities that typically involve contact with animals include 1) veterinarians, technicians, animal control officers, and their students or trainees; 2) persons who handle wildlife reservoir species (e.g., wildlife biologists, rehabilitators, and trappers); and 3) spelunkers",
+    "codedValues": [
+      {
+        "code": "24932003",
+        "codeSystem": "SNOMED",
+        "text": "Exposure to [contextual qualifier] [qualifier value]"
+      },
+      {
+        "code": "59881000",
+        "codeSystem": "SNOMED",
+        "text": "Rabies virus [organism]"
+      }
+    ]
+  },
+  {
+    "key": 63,
+    "observationCode": "063",
+    "observationTitle": "Post secondary student",
+    "group": "",
+    "indicationText": "Administer to persons who are students in a postsecondary educational institution.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "65853000",
+        "codeSystem": "SNOMED",
+        "text": "Student [occupation]"
+      },
+      {
+        "code": "257561002",
+        "codeSystem": "SNOMED",
+        "text": "Further education establishment [environment]"
+      }
+    ]
+  },
+  {
+    "key": 64,
+    "observationCode": "064",
+    "observationTitle": "Military recruits",
+    "group": "",
+    "indicationText": "Administer to military recruits.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 65,
+    "observationCode": "065",
+    "observationTitle": "Client of institution for persons with developmental disabilities",
+    "group": "",
+    "indicationText": "Administer to persons who are a client of institution for persons with developmental disabilities.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 66,
+    "observationCode": "066",
+    "observationTitle": "Chronic renal failure",
+    "group": "",
+    "indicationText": "Administer to persons with chronic renal failure.",
+    "contraindicationText": "Do not vaccinate if the patient has chronic renal failure.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "90688005",
+        "codeSystem": "SNOMED",
+        "text": "Chronic renal failure syndrome [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 68,
+    "observationCode": "068",
+    "observationTitle": "In drug abuse treatment and prevention facility",
+    "group": "",
+    "indicationText": "Administer to persons who are in a drug abuse treatment and prevention facility.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "20078004",
+        "codeSystem": "SNOMED",
+        "text": "Substance abuse treatment center [environment]"
+      }
+    ]
+  },
+  {
+    "key": 69,
+    "observationCode": "069",
+    "observationTitle": "In correctional facility",
+    "group": "",
+    "indicationText": "Administer to persons who are in a correctional facility.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "257656006",
+        "codeSystem": "SNOMED",
+        "text": "Penal institution [environment]"
+      }
+    ]
+  },
+  {
+    "key": 70,
+    "observationCode": "070",
+    "observationTitle": "Persons at risk during an outbreak",
+    "group": "",
+    "indicationText": "Administer to persons identified as at increased risk during a community outbreak attributable to a vaccine serogroup.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "410519009",
+        "codeSystem": "SNOMED",
+        "text": "At risk context [qualifier value]"
+      },
+      {
+        "code": "443684005",
+        "codeSystem": "SNOMED",
+        "text": "Disease outbreak [event]"
+      }
+    ]
+  },
+  {
+    "key": 71,
+    "observationCode": "071",
+    "observationTitle": "Household contact with hepatitis B surface antigen-positive persons",
+    "group": "",
+    "indicationText": "Administer to persons who have household contact with hepatitis B surface antigen-positive persons.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "11723008",
+        "codeSystem": "SNOMED",
+        "text": "Contact with [contextual qualifier] [qualifier value]"
+      },
+      {
+        "code": "165806002",
+        "codeSystem": "SNOMED",
+        "text": "Hepatitis B surface antigen positive [finding]"
+      }
+    ]
+  },
+  {
+    "key": 72,
+    "observationCode": "072",
+    "observationTitle": "Intimate exposure to a documented S. typhi carrier",
+    "group": "",
+    "indicationText": "Administer to persons who have intimate exposure to a documented S. typhi carrier.",
+    "contraindicationText": "",
+    "clarifyingText": "e.g., household contact",
+    "codedValues": [
+      {
+        "code": "170484009",
+        "codeSystem": "SNOMED",
+        "text": "Typhoid carrier [finding]"
+      }
+    ]
+  },
+  {
+    "key": 73,
+    "observationCode": "073",
+    "observationTitle": "Household and close contacts of immunocompromised persons",
+    "group": "",
+    "indicationText": "Administer to persons who are household and close contacts of immunocompromised persons.",
+    "contraindicationText": "Do not vaccinate if potential vaccinee has a household contact who is immunocompromised. Household contacts include persons with prolonged intimate contact with the potential vaccinee (e.g., sexual contacts) and others who might have direct contact with the vaccination site or with potentially contaminated materials (e.g., dressings or clothing).",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 74,
+    "observationCode": "074",
+    "observationTitle": "Negative serological screening for varicella",
+    "group": "",
+    "indicationText": "Administer to persons who are serologically negative for varicella.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 75,
+    "observationCode": "075",
+    "observationTitle": "Transgender person",
+    "group": "",
+    "indicationText": "Administer to transgender persons.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "12271241000119109",
+        "codeSystem": "SNOMED",
+        "text": "Transgender identify [finding]"
+      }
+    ]
+  },
+  {
+    "key": 76,
+    "observationCode": "076",
+    "observationTitle": "Progressive neurologic disorder",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has progressive neurologic disorder until a treatment regimen has been\nestablished and the condition has stabilized.",
+    "clarifyingText": "Includes infantile spasms, uncontrolled epilepsy, or progressive encephalopathy for the administration of any pertussis-containing\nvaccine",
+    "codedValues": [
+      {
+        "code": "84757009",
+        "codeSystem": "SNOMED",
+        "text": "Epilepsy [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 77,
+    "observationCode": "077",
+    "observationTitle": "Received inactivated or unknown measles vaccine between 1963-1967",
+    "group": "",
+    "indicationText": "Administer to persons who received inactivated or unknown measles vaccine between 1963-1967.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 78,
+    "observationCode": "078",
+    "observationTitle": "Received killed or unknown Mumps vaccine before 1979",
+    "group": "",
+    "indicationText": "Administer to persons who received killed or unknown Mumps vaccine before 1979.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 79,
+    "observationCode": "079",
+    "observationTitle": "Encephalopathy not attributable to another identifiable cause within 7 days of administration of a previous dose of Tdap, DTP, or DTaP vaccine",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had encephalopathy not attributable to another identifiable cause within 7 days of administration of a previous dose of Tdap, DTP, or DTaP vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "192711008",
+        "codeSystem": "SNOMED",
+        "text": "Post diphtheria vaccination encephalitis [disorder]"
+      },
+      {
+        "code": "192710009",
+        "codeSystem": "SNOMED",
+        "text": "Post tetanus vaccination encephalitis [disorder]"
+      },
+      {
+        "code": "192712001",
+        "codeSystem": "SNOMED",
+        "text": "Post pertussis vaccination encephalitis [disorder]"
+      },
+      {
+        "code": "VXC22",
+        "codeSystem": "CDCPHINVS",
+        "text": "Encephalopathy within 7 days of previous dose of DTP or DTaP"
+      }
+    ]
+  },
+  {
+    "key": 80,
+    "observationCode": "080",
+    "observationTitle": "Adverse reaction to vaccine component",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had an adverse reaction to a vaccine component.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293104008",
+        "codeSystem": "SNOMED",
+        "text": "Vaccines adverse reaction [disorder]"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 81,
+    "observationCode": "081",
+    "observationTitle": "Severe allergic reaction after previous dose of Polio",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Polio vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293117006",
+        "codeSystem": "SNOMED",
+        "text": "Poliomyelitis vaccine adverse reaction [disorder]"
+      },
+      {
+        "code": "02",
+        "codeSystem": "CVX",
+        "text": "OPV"
+      },
+      {
+        "code": "10",
+        "codeSystem": "CVX",
+        "text": "IPV"
+      },
+      {
+        "code": "89",
+        "codeSystem": "CVX",
+        "text": "Polio, unspecified formulation"
+      },
+      {
+        "code": "110",
+        "codeSystem": "CVX",
+        "text": "DTaP-HepB-IPV"
+      },
+      {
+        "code": "120",
+        "codeSystem": "CVX",
+        "text": "DTaP-Hib-IPV"
+      },
+      {
+        "code": "130",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV"
+      },
+      {
+        "code": "132",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB, Historical"
+      },
+      {
+        "code": "146",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 82,
+    "observationCode": "082",
+    "observationTitle": "Severe allergic reaction after previous dose of Japanese Encephalitis",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Japanese Encephalitis vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "451301000124103",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction caused by Japanese encephalitis virus vaccine [disorder]"
+      },
+      {
+        "code": "39",
+        "codeSystem": "CVX",
+        "text": "Japanese Encephalitis, MB"
+      },
+      {
+        "code": "134",
+        "codeSystem": "CVX",
+        "text": "Japanese Encephalitis, VC"
+      },
+      {
+        "code": "129",
+        "codeSystem": "CVX",
+        "text": "Japanese Encephalitis, unspecified"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 83,
+    "observationCode": "083",
+    "observationTitle": "Severe allergic reaction after previous dose of Rotavirus",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Rotavirus vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "429301000124101",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction to rotavirus vaccine [disorder]"
+      },
+      {
+        "code": "116",
+        "codeSystem": "CVX",
+        "text": "Rotavirus, pentavalent"
+      },
+      {
+        "code": "122",
+        "codeSystem": "CVX",
+        "text": "Rotavirus, unspecified formulation"
+      },
+      {
+        "code": "74",
+        "codeSystem": "CVX",
+        "text": "Rotavirus, tetravalent"
+      },
+      {
+        "code": "119",
+        "codeSystem": "CVX",
+        "text": "Rotavirus, monovalent"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 84,
+    "observationCode": "084",
+    "observationTitle": "Severe allergic reaction after previous dose of Typhoid",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Typhoid vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293122006",
+        "codeSystem": "SNOMED",
+        "text": "Typhoid vaccine adverse reaction [disorder]"
+      },
+      {
+        "code": "101",
+        "codeSystem": "CVX",
+        "text": "Typhoid capsular polysaccharide"
+      },
+      {
+        "code": "25",
+        "codeSystem": "CVX",
+        "text": "Typhoid oral, live, attenuated"
+      },
+      {
+        "code": "41",
+        "codeSystem": "CVX",
+        "text": "Typhoid, parenteral"
+      },
+      {
+        "code": "53",
+        "codeSystem": "CVX",
+        "text": "Typhoid, parenteral, AKD [U.S. military]"
+      },
+      {
+        "code": "91",
+        "codeSystem": "CVX",
+        "text": "Typhoid, unspecified formulation"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 85,
+    "observationCode": "085",
+    "observationTitle": "Severe allergic reaction after previous dose of Influenza",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Influenza vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "420113004",
+        "codeSystem": "SNOMED",
+        "text": "Influenza virus vaccine adverse reaction [disorder]"
+      },
+      {
+        "code": "15",
+        "codeSystem": "CVX",
+        "text": "Influenza, split incl. purified surface antigen"
+      },
+      {
+        "code": "16",
+        "codeSystem": "CVX",
+        "text": "Influenza, whole"
+      },
+      {
+        "code": "88",
+        "codeSystem": "CVX",
+        "text": "Influenza, Unspecified"
+      },
+      {
+        "code": "111",
+        "codeSystem": "CVX",
+        "text": "Influenza, live, intranasal"
+      },
+      {
+        "code": "135",
+        "codeSystem": "CVX",
+        "text": "Influenza, high dose seasonal"
+      },
+      {
+        "code": "140",
+        "codeSystem": "CVX",
+        "text": "Influenza, injectable preservative free"
+      },
+      {
+        "code": "141",
+        "codeSystem": "CVX",
+        "text": "Influenza, injectable"
+      },
+      {
+        "code": "144",
+        "codeSystem": "CVX",
+        "text": "Influenza, intradermal, preservative free"
+      },
+      {
+        "code": "149",
+        "codeSystem": "CVX",
+        "text": "influenza, live, intranasal, quadrivalent"
+      },
+      {
+        "code": "150",
+        "codeSystem": "CVX",
+        "text": "influenza, injectable, quadrivalent, preservative free"
+      },
+      {
+        "code": "151",
+        "codeSystem": "CVX",
+        "text": "influenza nasal, unspecified formulation"
+      },
+      {
+        "code": "153",
+        "codeSystem": "CVX",
+        "text": "Influenza, injectable, MDCK, preservative free"
+      },
+      {
+        "code": "155",
+        "codeSystem": "CVX",
+        "text": "influenza, recombinant, injectable, preservative free"
+      },
+      {
+        "code": "158",
+        "codeSystem": "CVX",
+        "text": "Influenza, injectable, quadrivalent"
+      },
+      {
+        "code": "161",
+        "codeSystem": "CVX",
+        "text": "Influenza, injectable, quadrivalent, preservative free, peds"
+      },
+      {
+        "code": "166",
+        "codeSystem": "CVX",
+        "text": "Influenza, intradermal, quadrivalent, preservative free"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 86,
+    "observationCode": "086",
+    "observationTitle": "Severe allergic reaction after previous dose of Pertussis",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Pertussis vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293115003",
+        "codeSystem": "SNOMED",
+        "text": "Pertussis vaccine adverse reaction [disorder]"
+      },
+      {
+        "code": "01",
+        "codeSystem": "CVX",
+        "text": "DTP"
+      },
+      {
+        "code": "20",
+        "codeSystem": "CVX",
+        "text": "DTaP"
+      },
+      {
+        "code": "22",
+        "codeSystem": "CVX",
+        "text": "DTP-Hib"
+      },
+      {
+        "code": "50",
+        "codeSystem": "CVX",
+        "text": "DTaP-Hib"
+      },
+      {
+        "code": "102",
+        "codeSystem": "CVX",
+        "text": "DTP-Hib-HepB"
+      },
+      {
+        "code": "106",
+        "codeSystem": "CVX",
+        "text": "DTaP, 5 pertussis antigens"
+      },
+      {
+        "code": "107",
+        "codeSystem": "CVX",
+        "text": "DTaP, Unspecified Formulation"
+      },
+      {
+        "code": "110",
+        "codeSystem": "CVX",
+        "text": "DTaP-HepB-IPV"
+      },
+      {
+        "code": "115",
+        "codeSystem": "CVX",
+        "text": "Tdap"
+      },
+      {
+        "code": "120",
+        "codeSystem": "CVX",
+        "text": "DTaP-Hib-IPV"
+      },
+      {
+        "code": "130",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV"
+      },
+      {
+        "code": "132",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB,historical"
+      },
+      {
+        "code": "146",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 87,
+    "observationCode": "087",
+    "observationTitle": "Severe allergic reaction after previous dose of Diphtheria",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Diphtheria vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "219085007",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction to diphtheria vaccine [disorder]"
+      },
+      {
+        "code": "01",
+        "codeSystem": "CVX",
+        "text": "DTP"
+      },
+      {
+        "code": "09",
+        "codeSystem": "CVX",
+        "text": "Td - Adult Adsorbed"
+      },
+      {
+        "code": "20",
+        "codeSystem": "CVX",
+        "text": "DTaP"
+      },
+      {
+        "code": "22",
+        "codeSystem": "CVX",
+        "text": "DTP-Hib"
+      },
+      {
+        "code": "28",
+        "codeSystem": "CVX",
+        "text": "DT - Pediatric"
+      },
+      {
+        "code": "50",
+        "codeSystem": "CVX",
+        "text": "DTaP-Hib"
+      },
+      {
+        "code": "102",
+        "codeSystem": "CVX",
+        "text": "DTP-Hib-HepB"
+      },
+      {
+        "code": "106",
+        "codeSystem": "CVX",
+        "text": "DTaP, 5 pertussis antigens"
+      },
+      {
+        "code": "107",
+        "codeSystem": "CVX",
+        "text": "DTaP, Unspecified Formulation"
+      },
+      {
+        "code": "110",
+        "codeSystem": "CVX",
+        "text": "DTaP-HepB-IPV"
+      },
+      {
+        "code": "113",
+        "codeSystem": "CVX",
+        "text": "Td p-free"
+      },
+      {
+        "code": "115",
+        "codeSystem": "CVX",
+        "text": "Tdap"
+      },
+      {
+        "code": "120",
+        "codeSystem": "CVX",
+        "text": "DTaP-Hib-IPV"
+      },
+      {
+        "code": "130",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV"
+      },
+      {
+        "code": "132",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB,historical"
+      },
+      {
+        "code": "138",
+        "codeSystem": "CVX",
+        "text": "Td - Adult"
+      },
+      {
+        "code": "139",
+        "codeSystem": "CVX",
+        "text": "Td - Adult Unspecified Formulation"
+      },
+      {
+        "code": "146",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 88,
+    "observationCode": "088",
+    "observationTitle": "Severe allergic reaction after previous dose of Tetanus",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Tetanus vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "219084006",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction to tetanus vaccine [disorder]"
+      },
+      {
+        "code": "01",
+        "codeSystem": "CVX",
+        "text": "DTP"
+      },
+      {
+        "code": "09",
+        "codeSystem": "CVX",
+        "text": "Td - Adult Adsorbed"
+      },
+      {
+        "code": "20",
+        "codeSystem": "CVX",
+        "text": "DTaP"
+      },
+      {
+        "code": "22",
+        "codeSystem": "CVX",
+        "text": "DTP-Hib"
+      },
+      {
+        "code": "28",
+        "codeSystem": "CVX",
+        "text": "DT - Pediatric"
+      },
+      {
+        "code": "35",
+        "codeSystem": "CVX",
+        "text": "TT"
+      },
+      {
+        "code": "50",
+        "codeSystem": "CVX",
+        "text": "DTaP-Hib"
+      },
+      {
+        "code": "102",
+        "codeSystem": "CVX",
+        "text": "DTP-Hib-HepB"
+      },
+      {
+        "code": "106",
+        "codeSystem": "CVX",
+        "text": "DTaP, 5 pertussis antigens"
+      },
+      {
+        "code": "107",
+        "codeSystem": "CVX",
+        "text": "DTaP, Unspecified Formulation"
+      },
+      {
+        "code": "110",
+        "codeSystem": "CVX",
+        "text": "DTaP-HepB-IPV"
+      },
+      {
+        "code": "113",
+        "codeSystem": "CVX",
+        "text": "Td p-free"
+      },
+      {
+        "code": "115",
+        "codeSystem": "CVX",
+        "text": "Tdap"
+      },
+      {
+        "code": "120",
+        "codeSystem": "CVX",
+        "text": "DTaP-Hib-IPV"
+      },
+      {
+        "code": "130",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV"
+      },
+      {
+        "code": "132",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB,historical"
+      },
+      {
+        "code": "138",
+        "codeSystem": "CVX",
+        "text": "Td - Adult"
+      },
+      {
+        "code": "139",
+        "codeSystem": "CVX",
+        "text": "Td - Adult Unspecified Formulation"
+      },
+      {
+        "code": "146",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 89,
+    "observationCode": "089",
+    "observationTitle": "Severe allergic reaction after previous dose of Varicella",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Varicella vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "451331000124106",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction caused by varicella virus live vaccine [disorder]"
+      },
+      {
+        "code": "21",
+        "codeSystem": "CVX",
+        "text": "Varicella"
+      },
+      {
+        "code": "94",
+        "codeSystem": "CVX",
+        "text": "MMRV"
+      },
+      {
+        "code": "121",
+        "codeSystem": "CVX",
+        "text": "Zoster"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 90,
+    "observationCode": "090",
+    "observationTitle": "Severe allergic reaction after previous dose of HPV",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of HPV vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "429311000124103",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction to human papillomavirus vaccine [disorder]"
+      },
+      {
+        "code": "62",
+        "codeSystem": "CVX",
+        "text": "4vHPV"
+      },
+      {
+        "code": "118",
+        "codeSystem": "CVX",
+        "text": "2vHPV"
+      },
+      {
+        "code": "137",
+        "codeSystem": "CVX",
+        "text": "HPV Unspecified"
+      },
+      {
+        "code": "165",
+        "codeSystem": "CVX",
+        "text": "9vHPV"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 91,
+    "observationCode": "091",
+    "observationTitle": "Severe allergic reaction after previous dose of Measles",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Measles vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "219096004",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction to measles vaccine [disorder]"
+      },
+      {
+        "code": "03",
+        "codeSystem": "CVX",
+        "text": "MMR"
+      },
+      {
+        "code": "04",
+        "codeSystem": "CVX",
+        "text": "Measles/Rubella"
+      },
+      {
+        "code": "05",
+        "codeSystem": "CVX",
+        "text": "Measles"
+      },
+      {
+        "code": "94",
+        "codeSystem": "CVX",
+        "text": "MMRV"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 92,
+    "observationCode": "092",
+    "observationTitle": "Severe allergic reaction after previous dose of Mumps",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Mumps vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293114004",
+        "codeSystem": "SNOMED",
+        "text": "Mumps vaccine adverse reaction [disorder]"
+      },
+      {
+        "code": "03",
+        "codeSystem": "CVX",
+        "text": "MMR"
+      },
+      {
+        "code": "07",
+        "codeSystem": "CVX",
+        "text": "Mumps"
+      },
+      {
+        "code": "38",
+        "codeSystem": "CVX",
+        "text": "Rubella/Mumps"
+      },
+      {
+        "code": "94",
+        "codeSystem": "CVX",
+        "text": "MMRV"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 93,
+    "observationCode": "093",
+    "observationTitle": "Severe allergic reaction after previous dose of Rubella",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Rubella vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293119009",
+        "codeSystem": "SNOMED",
+        "text": "Rubella vaccine adverse reaction [disorder]"
+      },
+      {
+        "code": "03",
+        "codeSystem": "CVX",
+        "text": "MMR"
+      },
+      {
+        "code": "04",
+        "codeSystem": "CVX",
+        "text": "Measles/Rubella"
+      },
+      {
+        "code": "06",
+        "codeSystem": "CVX",
+        "text": "Rubella"
+      },
+      {
+        "code": "38",
+        "codeSystem": "CVX",
+        "text": "Rubella/Mumps"
+      },
+      {
+        "code": "94",
+        "codeSystem": "CVX",
+        "text": "MMRV"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 94,
+    "observationCode": "094",
+    "observationTitle": "Severe allergic reaction after previous dose of Pneumococcal",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Pneumococcal vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293116002",
+        "codeSystem": "SNOMED",
+        "text": "Pneumococcal vaccine adverse reaction [disorder]"
+      },
+      {
+        "code": "133",
+        "codeSystem": "CVX",
+        "text": "PCV13"
+      },
+      {
+        "code": "100",
+        "codeSystem": "CVX",
+        "text": "PCV7"
+      },
+      {
+        "code": "33",
+        "codeSystem": "CVX",
+        "text": "PPSV23"
+      },
+      {
+        "code": "109",
+        "codeSystem": "CVX",
+        "text": "Pneumococcal, unspecified formulation"
+      },
+      {
+        "code": "152",
+        "codeSystem": "CVX",
+        "text": "Pneumococcal Conjugate, unspecified formulation"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 95,
+    "observationCode": "095",
+    "observationTitle": "Severe allergic reaction after previous dose of Meningococcal",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Meningococcal vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "2219088009",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction to meningococcal vaccine [disorder]"
+      },
+      {
+        "code": "451111000124103",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction caused by meningococcal conjugate vaccine [disorder]"
+      },
+      {
+        "code": "32",
+        "codeSystem": "CVX",
+        "text": "Meningococcal, MPSV4"
+      },
+      {
+        "code": "108",
+        "codeSystem": "CVX",
+        "text": "Meningococcal ACWY, unspecified"
+      },
+      {
+        "code": "114",
+        "codeSystem": "CVX",
+        "text": "Meningococcal, MCV4P"
+      },
+      {
+        "code": "136",
+        "codeSystem": "CVX",
+        "text": "Meningococcal, MCV4O"
+      },
+      {
+        "code": "147",
+        "codeSystem": "CVX",
+        "text": "MCV4, unspecified"
+      },
+      {
+        "code": "148",
+        "codeSystem": "CVX",
+        "text": "Meningococcal C/Y-HIB PRP"
+      },
+      {
+        "code": "167",
+        "codeSystem": "CVX",
+        "text": "Meningococcal, unknown serogroups"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 96,
+    "observationCode": "096",
+    "observationTitle": "Severe allergic reaction after previous dose of Hepatitis A",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Hepatitis A vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293126009",
+        "codeSystem": "SNOMED",
+        "text": "Hepatitis A vaccine adverse reaction [disorder]"
+      },
+      {
+        "code": "52",
+        "codeSystem": "CVX",
+        "text": "Hep A, adult"
+      },
+      {
+        "code": "83",
+        "codeSystem": "CVX",
+        "text": "Hep A, ped/adol, 2 dose"
+      },
+      {
+        "code": "84",
+        "codeSystem": "CVX",
+        "text": "Hep A, ped/adol, 3 dose"
+      },
+      {
+        "code": "85",
+        "codeSystem": "CVX",
+        "text": "Hep A, Unspecified"
+      },
+      {
+        "code": "104",
+        "codeSystem": "CVX",
+        "text": "HepA-HepB"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 97,
+    "observationCode": "097",
+    "observationTitle": "Severe allergic reaction after previous dose of Hepatitis B",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Hepatitis B vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293110008",
+        "codeSystem": "SNOMED",
+        "text": "Hepatitis B vaccine adverse reaction [disorder]"
+      },
+      {
+        "code": "08",
+        "codeSystem": "CVX",
+        "text": "Hep B, Adol/peds"
+      },
+      {
+        "code": "42",
+        "codeSystem": "CVX",
+        "text": "Hep B, Adol/high risk infant"
+      },
+      {
+        "code": "43",
+        "codeSystem": "CVX",
+        "text": "Hep B, Adult"
+      },
+      {
+        "code": "44",
+        "codeSystem": "CVX",
+        "text": "Hep B, Dialysis"
+      },
+      {
+        "code": "45",
+        "codeSystem": "CVX",
+        "text": "Hep B, Unspecified Formulation"
+      },
+      {
+        "code": "51",
+        "codeSystem": "CVX",
+        "text": "Hib-HepB"
+      },
+      {
+        "code": "102",
+        "codeSystem": "CVX",
+        "text": "DTaP-Hib-HepB"
+      },
+      {
+        "code": "104",
+        "codeSystem": "CVX",
+        "text": "HepA-HepB"
+      },
+      {
+        "code": "110",
+        "codeSystem": "CVX",
+        "text": "DTaP-HepB-IPV"
+      },
+      {
+        "code": "132",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB, historical"
+      },
+      {
+        "code": "146",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 98,
+    "observationCode": "098",
+    "observationTitle": "Severe allergic reaction after previous dose of Hib",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Hib vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293127000",
+        "codeSystem": "SNOMED",
+        "text": "Haemophilus influenzae Type B vaccine adverse reaction [disorder]"
+      },
+      {
+        "code": "17",
+        "codeSystem": "CVX",
+        "text": "Hib unspecified formulation"
+      },
+      {
+        "code": "22",
+        "codeSystem": "CVX",
+        "text": "DTP-Hib"
+      },
+      {
+        "code": "46",
+        "codeSystem": "CVX",
+        "text": "PRP-D"
+      },
+      {
+        "code": "47",
+        "codeSystem": "CVX",
+        "text": "HbOC"
+      },
+      {
+        "code": "48",
+        "codeSystem": "CVX",
+        "text": "PRP-T"
+      },
+      {
+        "code": "49",
+        "codeSystem": "CVX",
+        "text": "PRP-OMP"
+      },
+      {
+        "code": "50",
+        "codeSystem": "CVX",
+        "text": "DTaP/Hib"
+      },
+      {
+        "code": "51",
+        "codeSystem": "CVX",
+        "text": "Hib-HepB"
+      },
+      {
+        "code": "102",
+        "codeSystem": "CVX",
+        "text": "DTP-Hib-HepB"
+      },
+      {
+        "code": "120",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV/Hib"
+      },
+      {
+        "code": "132",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB,historical"
+      },
+      {
+        "code": "146",
+        "codeSystem": "CVX",
+        "text": "DTaP-IPV-Hib-HepB"
+      },
+      {
+        "code": "148",
+        "codeSystem": "CVX",
+        "text": "Hib-MenCY-TT"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 99,
+    "observationCode": "099",
+    "observationTitle": "Severe allergic reaction after previous dose of Yellow Fever",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Yellow Fever vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "219095000",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction to yellow fever vaccine [disorder]"
+      },
+      {
+        "code": "25",
+        "codeSystem": "CVX",
+        "text": "Yellow Fever"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 100,
+    "observationCode": "100",
+    "observationTitle": "Severe allergic reaction after previous dose of live zoster",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of live zoster vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "451291000124104",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction caused by zoster vaccine [disorder]"
+      },
+      {
+        "code": "121",
+        "codeSystem": "CVX",
+        "text": "Zoster live"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 101,
+    "observationCode": "101",
+    "observationTitle": "Allergic reaction to egg protein",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has a history of egg allergy.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "213020009",
+        "codeSystem": "SNOMED",
+        "text": "Egg protein allergy [disorder]"
+      },
+      {
+        "code": "91930004",
+        "codeSystem": "SNOMED",
+        "text": "Allergy to eggs [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 102,
+    "observationCode": "102",
+    "observationTitle": "Severe allergic reaction to gelatin",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to gelatin.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293309006",
+        "codeSystem": "SNOMED",
+        "text": "Gelatin adverse reaction [disorder]"
+      },
+      {
+        "code": "294847001",
+        "codeSystem": "SNOMED",
+        "text": "Gelatin allergy [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 103,
+    "observationCode": "103",
+    "observationTitle": "Severe allergic reaction to arginine",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to arginine.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 104,
+    "observationCode": "104",
+    "observationTitle": "Allergic reaction to latex",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has an allergy to latex.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "300916003",
+        "codeSystem": "SNOMED",
+        "text": "Latex allergy [disorder]"
+      },
+      {
+        "code": "441593005",
+        "codeSystem": "SNOMED",
+        "text": "Anaphylaxis due to latex [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 105,
+    "observationCode": "105",
+    "observationTitle": "Severe allergic reaction to chicken protein",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to chicken protein.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 106,
+    "observationCode": "106",
+    "observationTitle": "Severe allergic reaction to gentamicin",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to gentamicin.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "419522004",
+        "codeSystem": "SNOMED",
+        "text": "Gentamycin sensitivity [disorder]"
+      },
+      {
+        "code": "420094007",
+        "codeSystem": "SNOMED",
+        "text": "Gentamicin adverse reaction [disorder]"
+      },
+      {
+        "code": "294469003",
+        "codeSystem": "SNOMED",
+        "text": "Gentamicin allergy [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 107,
+    "observationCode": "107",
+    "observationTitle": "Severe allergic reaction to neomycin",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to neomycin.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "294468006",
+        "codeSystem": "SNOMED",
+        "text": "Neomycin allergy [disorder]"
+      },
+      {
+        "code": "292927007",
+        "codeSystem": "SNOMED",
+        "text": "Neomycin adverse reaction [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 108,
+    "observationCode": "108",
+    "observationTitle": "Severe allergic reaction to streptomycin",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to streptomycin.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "294466005",
+        "codeSystem": "SNOMED",
+        "text": "Streptomycin allergy [disorder]"
+      },
+      {
+        "code": "292925004",
+        "codeSystem": "SNOMED",
+        "text": "Streptomycin adverse reaction [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 109,
+    "observationCode": "109",
+    "observationTitle": "Severe allergic reaction to polymyxin B",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to polymyxin B. ",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "294530006",
+        "codeSystem": "SNOMED",
+        "text": "Polymyxin B allergy [disorder]"
+      },
+      {
+        "code": "292992006",
+        "codeSystem": "SNOMED",
+        "text": "Polymyxin B adverse reaction [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 110,
+    "observationCode": "110",
+    "observationTitle": "Hypersensitivity to yeast",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has a hypersensitivity to yeast.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "703936006",
+        "codeSystem": "SNOMED",
+        "text": "Allergy to yeast [disorder]"
+      },
+      {
+        "code": "VXC18",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to baker\u0027s yeast [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 111,
+    "observationCode": "111",
+    "observationTitle": "Hypersensitivity to the preservative 2-phenoxyethanol",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has a hypersensitivity to the preservative 2-phenoxyethanol.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 112,
+    "observationCode": "112",
+    "observationTitle": "Hypersensitivity to alum",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has a hypersensitivity to alum.",
+    "clarifyingText": "AKA potassium aluminum sulfate ",
+    "codedValues": []
+  },
+  {
+    "key": 113,
+    "observationCode": "113",
+    "observationTitle": "Severe allergic reaction after previous dose of Rabies",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Rabies vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "293118001",
+        "codeSystem": "SNOMED",
+        "text": "Rabies vaccine adverse reaction [disorder]"
+      },
+      {
+        "code": "18",
+        "codeSystem": "CVX",
+        "text": "Rabies, intramuscular injection"
+      },
+      {
+        "code": "40",
+        "codeSystem": "CVX",
+        "text": "Rabies, intradermal injection"
+      },
+      {
+        "code": "90",
+        "codeSystem": "CVX",
+        "text": "Rabies, unspecified formulation"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 114,
+    "observationCode": "114",
+    "observationTitle": "End stage renal disease",
+    "group": "",
+    "indicationText": "Administer to persons who have end stage renal disease.",
+    "contraindicationText": "",
+    "clarifyingText": "includes dialysis patients",
+    "codedValues": [
+      {
+        "code": "46177005",
+        "codeSystem": "SNOMED",
+        "text": "End stage renal disease [disorder]"
+      },
+      {
+        "code": "443143006",
+        "codeSystem": "SNOMED",
+        "text": "Dependence on hemodialysis [finding]"
+      },
+      {
+        "code": "714749008",
+        "codeSystem": "SNOMED",
+        "text": "Continuous renal replacement therapy [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 115,
+    "observationCode": "115",
+    "observationTitle": "Severe allergic reaction to protamine sulfate",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to protamine sulfate.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "64520006",
+        "codeSystem": "SNOMED",
+        "text": "Protamine sulfate [substance]"
+      },
+      {
+        "code": "294278007",
+        "codeSystem": "SNOMED",
+        "text": "Protamine allergy [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 116,
+    "observationCode": "116",
+    "observationTitle": "Severe allergic reaction after previous dose of Meningococcal B",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Meningococcal B vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "451281000124102",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction caused by meningococcal group B vaccine [disorder]"
+      },
+      {
+        "code": "162",
+        "codeSystem": "CVX",
+        "text": "Meningococcal B, recombinant"
+      },
+      {
+        "code": "163",
+        "codeSystem": "CVX",
+        "text": "Meningococcal B, OMV"
+      },
+      {
+        "code": "164",
+        "codeSystem": "CVX",
+        "text": "Meningococcal B, unspecified"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 117,
+    "observationCode": "117",
+    "observationTitle": "Severe allergic reaction to diphtheria toxoid",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to diphtheria toxoid.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 118,
+    "observationCode": "118",
+    "observationTitle": "Severe allergic reaction to tetanus toxoid",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to tetanus toxoid.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 119,
+    "observationCode": "119",
+    "observationTitle": "Severe allergic reaction after previous dose of cholera",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of cholera vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "219082005",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction caused by cholera vaccine [disorder]"
+      },
+      {
+        "code": "26",
+        "codeSystem": "CVX",
+        "text": "cholera, unspecified formulation"
+      },
+      {
+        "code": "172",
+        "codeSystem": "CVX",
+        "text": "cholera, WC-rBS"
+      },
+      {
+        "code": "173",
+        "codeSystem": "CVX",
+        "text": "cholera, BivWC"
+      },
+      {
+        "code": "174",
+        "codeSystem": "CVX",
+        "text": "cholera, live attenuated"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 120,
+    "observationCode": "120",
+    "observationTitle": "Begin Date of antiviral therapy [ART]",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 121,
+    "observationCode": "121",
+    "observationTitle": "Homelessness",
+    "group": "",
+    "indicationText": "Administer to persons who are experiencing homelessness.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "32911000",
+        "codeSystem": "SNOMED",
+        "text": "Homeless [finding]"
+      }
+    ]
+  },
+  {
+    "key": 122,
+    "observationCode": "122",
+    "observationTitle": "Severe allergic reaction after previous dose of COVID-19",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of COVID-19 vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "208",
+        "codeSystem": "CVX",
+        "text": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 123,
+    "observationCode": "123",
+    "observationTitle": "Severe allergic reaction after previous dose of Ebola",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Ebola vaccine.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 124,
+    "observationCode": "124",
+    "observationTitle": "Severe allergic reaction to rice protein ",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to rice protein.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 125,
+    "observationCode": "125",
+    "observationTitle": "Tetanus IG administration",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had Tetanus IG administered in the previous 3 months.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "13",
+        "codeSystem": "CVX",
+        "text": "Tetanus immune globulin"
+      }
+    ]
+  },
+  {
+    "key": 126,
+    "observationCode": "126",
+    "observationTitle": "Hep A IG administration",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had Hepatitis A IG administered in the previous 3 months.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "154",
+        "codeSystem": "CVX",
+        "text": "Hepatitis A immune globulin"
+      }
+    ]
+  },
+  {
+    "key": 127,
+    "observationCode": "127",
+    "observationTitle": "Hep B IG administration",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had Hepatitis B IG administered in the previous 3 months.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "30",
+        "codeSystem": "CVX",
+        "text": "Hepatitis B immune globulin"
+      }
+    ]
+  },
+  {
+    "key": 128,
+    "observationCode": "128",
+    "observationTitle": "Rabies IG administration",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had Rabies IG administered in the previous 4 months.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "34",
+        "codeSystem": "CVX",
+        "text": "Rabies immune globulin"
+      }
+    ]
+  },
+  {
+    "key": 129,
+    "observationCode": "129",
+    "observationTitle": "Varicella IG administration",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had Varicella IG administered in the previous 5 months.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "36",
+        "codeSystem": "CVX",
+        "text": "Varicella zoster immune globulin"
+      }
+    ]
+  },
+  {
+    "key": 130,
+    "observationCode": "130",
+    "observationTitle": "Measles prophylaxis IG administration - Standard",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had Measles IG at a standard dose [0.25 mL/kg] administered in the previous 5 months.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 131,
+    "observationCode": "131",
+    "observationTitle": "Measles prophylaxis IG administration - Immunocompromised Contact",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had Measles IG at an immunocompromised dose [0.5 mL/kg] administered in the previous 6 months.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 132,
+    "observationCode": "132",
+    "observationTitle": "RBC [adenine-saline added] blood transfusion",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has received a blood transfusion of adenine-saline added RBCs in the previous 3 months.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "116859006",
+        "codeSystem": "SNOMED",
+        "text": "Transfusion of blood product [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 133,
+    "observationCode": "133",
+    "observationTitle": "Packed RBC blood transfusion",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has received a blood transfusion of packed RBCs in the previous 6 months.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "116859006",
+        "codeSystem": "SNOMED",
+        "text": "Transfusion of blood product [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 134,
+    "observationCode": "134",
+    "observationTitle": "Whole blood transfusion",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has received a whole blood transfusion in the previous 6 months.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "116859006",
+        "codeSystem": "SNOMED",
+        "text": "Transfusion of blood product [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 135,
+    "observationCode": "135",
+    "observationTitle": "Plasma/platelet products blood transfusion",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has received a blood transfusion of plasma or platelet product in the previous 7 months.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "13569004",
+        "codeSystem": "SNOMED",
+        "text": "Transfusion of plasma [procedure]"
+      },
+      {
+        "code": "12719002",
+        "codeSystem": "SNOMED",
+        "text": "Platelet transfusion [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 136,
+    "observationCode": "136",
+    "observationTitle": "Cytomegalovirus IGIV",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has received Cytomegalovirus IGIV in the previous 6 months.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 137,
+    "observationCode": "137",
+    "observationTitle": "IGIV - Replacement therapy for immune deficiencies",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has received IGIV [Replacement therapy for immune deficiencies] in the previous 8 months.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 138,
+    "observationCode": "138",
+    "observationTitle": "IGIV - Immune thrombocytopenic purpura treatment",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has received IGIV [Immune thrombocytopenic purpura treatment [400 mg/kg IV]] in the previous 8 months.",
+    "clarifyingText": "400 mg/kg IV",
+    "codedValues": []
+  },
+  {
+    "key": 139,
+    "observationCode": "139",
+    "observationTitle": "IGIV - Postexposure varicella prophylaxis",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has received IGIV [Postexposure varicella prophylaxis] in the previous 8 months.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 140,
+    "observationCode": "140",
+    "observationTitle": "IGIV - Immune thrombocytopenic purpura treatment",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has received IGIV [Immune thrombocytopenic purpura treatment [1000 mg/kg IV]] in the previous 10 months.",
+    "clarifyingText": "1000 mg/kg IV",
+    "codedValues": []
+  },
+  {
+    "key": 141,
+    "observationCode": "141",
+    "observationTitle": "IGIV - Kawasaki disease",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has received IGIV [Kawasaki disease] in the previous 11 months.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 142,
+    "observationCode": "142",
+    "observationTitle": "Travel to or working in countries that have high or intermediate endemicity of Hepatitis A",
+    "group": "",
+    "indicationText": "Administer to persons traveling to or working in countries that have high or intermediate endemicity of Hepatitis A.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 143,
+    "observationCode": "143",
+    "observationTitle": "Travel to areas or countries where polio is epidemic or endemic",
+    "group": "",
+    "indicationText": "Administer to travelers to areas or countries where polio is epidemic or endemic.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 144,
+    "observationCode": "144",
+    "observationTitle": "International travel with possible contact with animals in areas where rabies is enzootic and immediate access to appropriate medical care might be limited",
+    "group": "",
+    "indicationText": "Administer to persons with plans for international travel with possible contact with animals in areas where rabies is enzootic and immediate access to appropriate medical care might be limited.",
+    "contraindicationText": "",
+    "clarifyingText": "PrEP considerations include whether the travelers 1) will be performing occupational or recreational activities that increase risk for exposure to potentially rabid animals (particularly dogs) and 2) might have difficulty getting prompt access to safe PEP (e.g., rural part of a country or far from closest PEP clinic)",
+    "codedValues": []
+  },
+  {
+    "key": 145,
+    "observationCode": "145",
+    "observationTitle": "B-lymphocyte [humoral] - Severe antibody deficiencies",
+    "group": "",
+    "indicationText": "Administer to persons who have severe B-lymphocyte [humoral] - antibody deficiencies [e.g., X-linked agammaglobulinemia and common variable immunodeficiency].",
+    "contraindicationText": "Do not vaccinate if the patient has severe B-lymphocyte [humoral] - antibody deficiencies [e.g., X-linked agammaglobulinemia and common variable immunodeficiency].",
+    "clarifyingText": "e.g., X-linked agammaglobulinemia and common variable immunodeficiency",
+    "codedValues": [
+      {
+        "code": "65880007",
+        "codeSystem": "SNOMED",
+        "text": "X-linked agammaglobulinemia [disorder]"
+      },
+      {
+        "code": "23238000",
+        "codeSystem": "SNOMED",
+        "text": "Common variable agammaglobulinemia [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 146,
+    "observationCode": "146",
+    "observationTitle": "B-lymphocyte [humoral] - Less severe antibody deficiencies",
+    "group": "",
+    "indicationText": "Administer to persons who have less severe B-lymphocyte [humoral] - antibody deficiencies [e.g., selective IgA deficiency and IgG subclass deficiency].",
+    "contraindicationText": "Do not vaccinate if the patient has less severe B-lymphocyte [humoral] - antibody deficiencies [e.g., selective IgA deficiency and IgG subclass deficiency].",
+    "clarifyingText": "e.g., selective IgA deficiency and IgG subclass deficiency",
+    "codedValues": [
+      {
+        "code": "190979003",
+        "codeSystem": "SNOMED",
+        "text": "Selective immunoglobulin A deficiency [disorder]"
+      },
+      {
+        "code": "123785006",
+        "codeSystem": "SNOMED",
+        "text": "Immunoglobulin G subclass deficiency [finding]"
+      }
+    ]
+  },
+  {
+    "key": 147,
+    "observationCode": "147",
+    "observationTitle": "T-lymphocyte [cell-mediated and humoral] - Complete defects",
+    "group": "",
+    "indicationText": "Administer to persons who have complete cell-mediated or humoral T-lymphocyte defects [e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome].",
+    "contraindicationText": "Do not vaccinate if the patient has complete cell-mediated or humoral T-lymphocyte defects [e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome].",
+    "clarifyingText": "e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome",
+    "codedValues": [
+      {
+        "code": "31323000",
+        "codeSystem": "SNOMED",
+        "text": "Severe combined immunodeficiency disease [disorder]"
+      },
+      {
+        "code": "77128003",
+        "codeSystem": "SNOMED",
+        "text": "DiGeorge sequence [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 148,
+    "observationCode": "148",
+    "observationTitle": "T-lymphocyte [cell-mediated and humoral] - Partial defects",
+    "group": "",
+    "indicationText": "Administer to persons who have partial cell-mediated or humoral T-lymphocyte defects [e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia].",
+    "contraindicationText": "Do not vaccinate if the patient has partial cell-mediated or humoral T-lymphocyte defects [e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia].",
+    "clarifyingText": "e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia",
+    "codedValues": [
+      {
+        "code": "77128003",
+        "codeSystem": "SNOMED",
+        "text": "DiGeorge sequence [disorder]"
+      },
+      {
+        "code": "36070007",
+        "codeSystem": "SNOMED",
+        "text": "Wiskott-Aldrich syndrome [disorder]"
+      },
+      {
+        "code": "68504005",
+        "codeSystem": "SNOMED",
+        "text": "Ataxia-telangiectasia syndrome [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 149,
+    "observationCode": "149",
+    "observationTitle": "T-lymphocyte [cell-mediated and humoral] - interferon-gamma/Interleukin 12 axis deficiencies",
+    "group": "",
+    "indicationText": "Administer to persons who have T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha.",
+    "contraindicationText": "Do not vaccinate with live attenuated typhoid virus [Ty21a] if the patient has T-lymphocyte [cell-mediated and humoral] - interferon-gamma/Interleukin 12 axis deficiencies.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 150,
+    "observationCode": "150",
+    "observationTitle": "T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha deficiencies",
+    "group": "",
+    "indicationText": "Administer to persons who have T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha deficiencies.",
+    "contraindicationText": "Do not vaccinate if the patient has cell-mediated or humoral T-lymphocyte defects related to interferon-gamma or interferon-alpha deficiencies.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 151,
+    "observationCode": "151",
+    "observationTitle": "Persistent complement, properdin, or factor B deficiency",
+    "group": "",
+    "indicationText": "Administer to persons who have persistent complement component deficiencies, including inherited or chronic deficiencies in C3, C5-9, properdin, factor D, factor H, or who are taking eculizumab [Soliris].",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "24743004",
+        "codeSystem": "SNOMED",
+        "text": "Complement deficiency disease [disorder]"
+      },
+      {
+        "code": "81166004",
+        "codeSystem": "SNOMED",
+        "text": "Properdin deficiency disease [disorder]"
+      },
+      {
+        "code": "234605000",
+        "codeSystem": "SNOMED",
+        "text": "Factor B deficiency [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 152,
+    "observationCode": "152",
+    "observationTitle": "Phagocytic function - Chronic granulomatous disease",
+    "group": "",
+    "indicationText": "Administer to persons who have chronic granulomatous disease.",
+    "contraindicationText": "Do not vaccinate if the patient has phagocytic function - chronic granulomatous disease.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "387759001",
+        "codeSystem": "SNOMED",
+        "text": "Chronic granulomatous disease [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 153,
+    "observationCode": "153",
+    "observationTitle": "Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency",
+    "group": "",
+    "indicationText": "Administer to persons who have a phagocytic function defect [e.g. leukocyte adhesion defect and myeloperoxidase deficiency].",
+    "contraindicationText": "Do not vaccinate if the patient has a phagocytic function defect [e.g. leukocyte adhesion defect and myeloperoxidase deficiency].",
+    "clarifyingText": "Phagocytic deficiencies that are undefined or accompanied by defects in T-cell and NK cell dysfunction (such as a Chediak-Higashi syndrome, Leukocyte Adhesion Deficiency [LAD], and myeloperoxidase deficiency)",
+    "codedValues": [
+      {
+        "code": "77358003",
+        "codeSystem": "SNOMED",
+        "text": "Congenital leukocyte adherence deficiency [disorder]"
+      },
+      {
+        "code": "234433009",
+        "codeSystem": "SNOMED",
+        "text": "Myeloperoxidase deficiency [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 154,
+    "observationCode": "154",
+    "observationTitle": "HIV/AIDS - severely immunocompromised",
+    "group": "",
+    "indicationText": "Administer to persons who have HIV/AIDS and are severely immunocompromised [See the CDC general recommendations for a definition of \u0022severely immunocompromised\u0022].",
+    "contraindicationText": "Do not vaccinate if the patient has HIV/AIDS and is severely immunocompromised [See the CDC general recommendations for a definition of \u0022severely immunocompromised\u0022].",
+    "clarifyingText": "See CDC general recommendations for guidance on defining \u0022severely immunocompromised\u0022",
+    "codedValues": [
+      {
+        "code": "62479008",
+        "codeSystem": "SNOMED",
+        "text": "Acquired immune deficiency syndrome [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 155,
+    "observationCode": "155",
+    "observationTitle": "HIV/AIDS - not severely immunocompromised",
+    "group": "",
+    "indicationText": "Administer to persons who have HIV/AIDS and are not severely immunocompromised [See the CDC general recommendations for a definition of \u0022severely immunocompromised\u0022].",
+    "contraindicationText": "",
+    "clarifyingText": "See CDC general recommendations for guidance on defining \u0022not severely immunocompromised\u0022",
+    "codedValues": [
+      {
+        "code": "62479008",
+        "codeSystem": "SNOMED",
+        "text": "Acquired immune deficiency syndrome [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 156,
+    "observationCode": "156",
+    "observationTitle": "Generalized malignant neoplasm",
+    "group": "",
+    "indicationText": "Administer to persons who have generalized malignant neoplasm.",
+    "contraindicationText": "Do not vaccinate if the patient has generalized malignant neoplasm.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 157,
+    "observationCode": "157",
+    "observationTitle": "Solid organ transplantation",
+    "group": "",
+    "indicationText": "Administer to persons who have received a solid organ transplant.",
+    "contraindicationText": "Do not vaccinate if the patient received a solid organ transplant.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "313039003",
+        "codeSystem": "SNOMED",
+        "text": "Solid organ transplant [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 158,
+    "observationCode": "158",
+    "observationTitle": "Immunosuppressive therapy",
+    "group": "",
+    "indicationText": "Administer to persons who are undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. ",
+    "contraindicationText": "Do not vaccinate if the patient is undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. ",
+    "clarifyingText": "Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies.",
+    "codedValues": [
+      {
+        "code": "86553008",
+        "codeSystem": "SNOMED",
+        "text": "Immunosuppressive therapy [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 159,
+    "observationCode": "159",
+    "observationTitle": "Radiation therapy",
+    "group": "",
+    "indicationText": "Administer to persons who are undergoing radiation therapy.",
+    "contraindicationText": "Do not vaccinate if the patient is undergoing radiation therapy.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "53438000",
+        "codeSystem": "SNOMED",
+        "text": "Radiation therapy procedure or service [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 160,
+    "observationCode": "160",
+    "observationTitle": "Anatomical or functional asplenia",
+    "group": "",
+    "indicationText": "Administer to persons with anatomic or functional asplenia, including sickle cell disease.",
+    "contraindicationText": "Do not vaccinate if the patient has anatomical or functional asplenia.",
+    "clarifyingText": "e.g. Sickle cell disease and other hemoglobinopathies, congenital or acquired asplenia, splenic dysfunction, and splenectomy",
+    "codedValues": [
+      {
+        "code": "707147002",
+        "codeSystem": "SNOMED",
+        "text": "Asplenia [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 161,
+    "observationCode": "161",
+    "observationTitle": "Chronic kidney disease",
+    "group": "",
+    "indicationText": "Administer to persons with chronic kidney disease.",
+    "contraindicationText": "Do not vaccinate if the patient has chronic kidney disease.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "709044004",
+        "codeSystem": "SNOMED",
+        "text": "Chronic kidney disease [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 162,
+    "observationCode": "162",
+    "observationTitle": "Travel to areas at risk for Yellow Fever transmission",
+    "group": "",
+    "indicationText": "Administer to persons who travel to areas at risk for Yellow Fever transmission.",
+    "contraindicationText": "",
+    "clarifyingText": "Given that changes in the designation of endemic regions can occur, travelers and health-care providers should obtain updated information from CDC, available at https://wwwnc.cdc.gov/travel/yellowbook/2024/infections-diseases/yellow-fever",
+    "codedValues": []
+  },
+  {
+    "key": 163,
+    "observationCode": "163",
+    "observationTitle": "Travel to areas in which there is a recognized risk of exposure to S. typhi",
+    "group": "",
+    "indicationText": "Administer to persons who travel to areas in which there is a recognized risk of exposure to S. typhi.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 164,
+    "observationCode": "164",
+    "observationTitle": "Travel to or are residents of countries in which meningococcal disease is hyperendemic or epidemic",
+    "group": "",
+    "indicationText": "Administer to persons who travel to or are residents of countries in which meningococcal disease is hyperendemic or epidemic.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 165,
+    "observationCode": "165",
+    "observationTitle": "Longer-term (e.g., 1 month or more) travel to a JE-endemic area",
+    "group": "",
+    "indicationText": "Administer to persons who plan for longer-term (e.g., 1 month or more) travel to JE-endemic areas.",
+    "contraindicationText": "",
+    "clarifyingText": "Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: https://wwwnc.cdc.gov/travel/yellowbook/2024/infections-diseases/japanese-encephalitis",
+    "codedValues": []
+  },
+  {
+    "key": 166,
+    "observationCode": "166",
+    "observationTitle": "Travel to countries with high or intermediate prevalence of chronic HBV infection",
+    "group": "",
+    "indicationText": "Administered to persons who travel to countries with high or intermediate prevalence of chronic HBV infection.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 167,
+    "observationCode": "167",
+    "observationTitle": "Nephrotic Syndrome",
+    "group": "",
+    "indicationText": "Administer to persons with nephrotic syndrome.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "52254009",
+        "codeSystem": "SNOMED",
+        "text": "Nephrotic syndrome [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 168,
+    "observationCode": "168",
+    "observationTitle": "Chemotherapy",
+    "group": "",
+    "indicationText": "Administer to persons who are undergoing chemotherapy.",
+    "contraindicationText": "Do not vaccinate if the patient is undergoing chemotherapy, including 14 days before the start of therapy and 3 months after the completion of therapy.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "367336001",
+        "codeSystem": "SNOMED",
+        "text": "Chemotherapy [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 169,
+    "observationCode": "169",
+    "observationTitle": "History of sexual abuse or assault",
+    "group": "",
+    "indicationText": "Administer to persons who have a history of sexual abuse or assault.",
+    "contraindicationText": "",
+    "clarifyingText": "Includes children and youth who are suspected or confirmed victims of sexual abuse or assault.",
+    "codedValues": [
+      {
+        "code": "213017001",
+        "codeSystem": "SNOMED",
+        "text": "Sexual abuse [event]"
+      },
+      {
+        "code": "422608009",
+        "codeSystem": "SNOMED",
+        "text": "Sexual assault [finding]"
+      },
+      {
+        "code": "248110007",
+        "codeSystem": "SNOMED",
+        "text": "Sexual assault [event]"
+      }
+    ]
+  },
+  {
+    "key": 170,
+    "observationCode": "170",
+    "observationTitle": "Onset of pregnancy",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "248986005",
+        "codeSystem": "SNOMED",
+        "text": "Estimated date of conception [observable entity]"
+      }
+    ]
+  },
+  {
+    "key": 171,
+    "observationCode": "171",
+    "observationTitle": "Date of hematopoietic stem cell transplant",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 172,
+    "observationCode": "172",
+    "observationTitle": "Severe allergic reaction after previous dose of recombinant zoster",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of recombinant zoster vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "451291000124104",
+        "codeSystem": "SNOMED",
+        "text": "Adverse reaction caused by zoster vaccine [disorder]"
+      },
+      {
+        "code": "187",
+        "codeSystem": "CVX",
+        "text": "Zoster subunit"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 173,
+    "observationCode": "173",
+    "observationTitle": "Moving to JE-endemic country to take up residence",
+    "group": "",
+    "indicationText": "Administer to persons who plan to move to JE-endemic countries to take up residence.",
+    "contraindicationText": "",
+    "clarifyingText": "Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: https://wwwnc.cdc.gov/travel/yellowbook/2024/infections-diseases/japanese-encephalitis",
+    "codedValues": []
+  },
+  {
+    "key": 174,
+    "observationCode": "174",
+    "observationTitle": "Frequent travel to JE-endemic areas",
+    "group": "",
+    "indicationText": "Administer to persons who frequently travel to JE-endemic areas.",
+    "contraindicationText": "",
+    "clarifyingText": "Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: https://wwwnc.cdc.gov/travel/yellowbook/2024/infections-diseases/japanese-encephalitis",
+    "codedValues": []
+  },
+  {
+    "key": 175,
+    "observationCode": "175",
+    "observationTitle": "Patient seeks Hepatitis A protection",
+    "group": "",
+    "indicationText": "Administer to persons seeking protection from Hepatitis A.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 176,
+    "observationCode": "176",
+    "observationTitle": "Patient seeks Hepatitis B protection",
+    "group": "",
+    "indicationText": "Administer to persons seeking protection from Hepatitis B.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 177,
+    "observationCode": "177",
+    "observationTitle": "Patient seeks Meningococcal B protection",
+    "group": "",
+    "indicationText": "Administer to persons seeking protection from Meningococcal B.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 178,
+    "observationCode": "178",
+    "observationTitle": "Leukemia",
+    "group": "",
+    "indicationText": "Administer to persons with leukemia.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "93143009",
+        "codeSystem": "SNOMED",
+        "text": "Leukemia, disease [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 179,
+    "observationCode": "179",
+    "observationTitle": "Lymphoma",
+    "group": "",
+    "indicationText": "Administer to persons with lymphoma.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "399600009",
+        "codeSystem": "SNOMED",
+        "text": "Lymphoma [finding]"
+      }
+    ]
+  },
+  {
+    "key": 180,
+    "observationCode": "180",
+    "observationTitle": "Hodgkin\u0027s disease",
+    "group": "",
+    "indicationText": "Administer to persons with Hodgkin\u0027s disease.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "118599009",
+        "codeSystem": "SNOMED",
+        "text": "Hodgkin\u0027s disease [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 181,
+    "observationCode": "181",
+    "observationTitle": "Multiple myeloma",
+    "group": "",
+    "indicationText": "Administer to persons with multiple myeloma.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "109989006",
+        "codeSystem": "SNOMED",
+        "text": "Multiple myeloma [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 182,
+    "observationCode": "182",
+    "observationTitle": "Ebola virus outbreak response",
+    "group": "",
+    "indicationText": "Administer to persons responding to an outbreak of Ebola Virus Disease.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 183,
+    "observationCode": "183",
+    "observationTitle": "Health care personnel at federally designated Ebola treatment center in U.S.",
+    "group": "",
+    "indicationText": "Administer to persons working as health care personnel at federally designated Ebola treatment centers in the United States",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 184,
+    "observationCode": "184",
+    "observationTitle": "Laboratorians or other staff at biosafety level 4 facilities in U.S.",
+    "group": "",
+    "indicationText": "Administer to persons working as Laboratorians or other staff at biosafety level 4 facilities in U.S.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 185,
+    "observationCode": "185",
+    "observationTitle": "Persons in settings that provide services to adults with high proportion of those persons have risk factors for HAV infection",
+    "group": "",
+    "indicationText": "Administer to persons in settings that provider services to adults with high proportion of those persons have risk factors HAV infection",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 186,
+    "observationCode": "186",
+    "observationTitle": "HIV Infection",
+    "group": "",
+    "indicationText": "Administer to persons with HIV Infection",
+    "contraindicationText": "Do not vaccinate if the patient has an HIV Infection.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "86406008",
+        "codeSystem": "SNOMED",
+        "text": "Human immunodeficiency virus infection [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 187,
+    "observationCode": "187",
+    "observationTitle": "Allergic reaction to polysorbate 80",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had an immediate allergic reaction of any severity to polysorbate 80.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 188,
+    "observationCode": "188",
+    "observationTitle": "Known allergy to Polyethylene glycol [PEG]",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has known allergy to Polyethylene glycol [PEG].",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 189,
+    "observationCode": "189",
+    "observationTitle": "Active treatment for solid tumors",
+    "group": "",
+    "indicationText": "Administer to persons receiving active treatment for solid tumors",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 190,
+    "observationCode": "190",
+    "observationTitle": "Active treatment for hematologic malignancies",
+    "group": "",
+    "indicationText": "Administer to persons receiving active treatment for hematologic malignancies",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 191,
+    "observationCode": "191",
+    "observationTitle": "Receipt of CAR-T-cell therapy",
+    "group": "",
+    "indicationText": "Administer to persons receiving CAR-T-cell therapy",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "1156961008",
+        "codeSystem": "SNOMED",
+        "text": "Chimeric antigen receptor T-cell immunotherapy [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 192,
+    "observationCode": "192",
+    "observationTitle": "Severe allergic reaction after previous dose of any egg-based IIV or LAIV influenza vaccine",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate with any egg-based IIV or LAIV influenza vaccine if the patient has had a severe allergic reaction after a previous dose of an egg-based IIV or LAIV influenza vaccine.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 193,
+    "observationCode": "193",
+    "observationTitle": "Severe allergic reaction after previous dose of any ccIIV influenza vaccine",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate with any ccIIV or egg-based IIV or LAIV influenza vaccine if the patient has had a severe allergic reaction after a previous dose of a ccIIV influenza vaccine.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 194,
+    "observationCode": "194",
+    "observationTitle": "Severe allergic reaction after previous dose of any RIV influenza vaccine",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate with any RIV or egg-based IIV or LAIV influenza vaccine if the patient has had a severe allergic reaction after a previous dose of an RIV influenza vaccine.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 195,
+    "observationCode": "195",
+    "observationTitle": "Occupations at increased risk for COVID-19 exposure and transmission",
+    "group": "",
+    "indicationText": "Administer to persons at increased occupational risk for COVID-19 exposure and transmission.",
+    "contraindicationText": "",
+    "clarifyingText": "Occupations at increased risk for COVID-19 exposure and transmission and may get a booster shot based on their individual benefits and risks",
+    "codedValues": []
+  },
+  {
+    "key": 196,
+    "observationCode": "196",
+    "observationTitle": "Residing in an institutional setting at increased risk for COVID-19 exposure and transmission",
+    "group": "",
+    "indicationText": "Administer to persons residing in institutional settings at increased risk for COVID-19 exposure and transmission.",
+    "contraindicationText": "",
+    "clarifyingText": "Institutional settings such as health care, schools, correctional facilities, and homeless shelters at increased risk for COVID-19 exposure and transmission and may get a booster shot based on their individual benefits and risks including ",
+    "codedValues": []
+  },
+  {
+    "key": 197,
+    "observationCode": "197",
+    "observationTitle": "Resident of a long term care facility",
+    "group": "",
+    "indicationText": "Administer to persons residing in a long term care facility",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 198,
+    "observationCode": "198",
+    "observationTitle": "Cancer",
+    "group": "",
+    "indicationText": "Administer to persons with cancer",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "363346000",
+        "codeSystem": "SNOMED",
+        "text": "Malignant neoplastic disease [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 199,
+    "observationCode": "199",
+    "observationTitle": "Interstitial lung disease",
+    "group": "",
+    "indicationText": "Administer to persons with interstitial lung disease",
+    "contraindicationText": "",
+    "clarifyingText": "Having damaged or scarred lung tissue such as interstitial lung disease",
+    "codedValues": [
+      {
+        "code": "233703007",
+        "codeSystem": "SNOMED",
+        "text": "Interstitial lung disease [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 200,
+    "observationCode": "200",
+    "observationTitle": "Cystic fibrosis",
+    "group": "",
+    "indicationText": "Administer to persons with cystic fibrosis",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "190905008",
+        "codeSystem": "SNOMED",
+        "text": "cystic fibrosis [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 201,
+    "observationCode": "201",
+    "observationTitle": "Pulmonary hypertension",
+    "group": "",
+    "indicationText": "Administer to persons with hypertension",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "70995007",
+        "codeSystem": "SNOMED",
+        "text": "Pulmonary hypertension [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 202,
+    "observationCode": "202",
+    "observationTitle": "Dementia",
+    "group": "",
+    "indicationText": "Administer to persons with dementia",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "52448006",
+        "codeSystem": "SNOMED",
+        "text": "Dimensia [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 203,
+    "observationCode": "203",
+    "observationTitle": "Down syndrome",
+    "group": "",
+    "indicationText": "Administer to persons with down syndrome",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "41040004",
+        "codeSystem": "SNOMED",
+        "text": "Complete trisomy 21 syndrome [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 204,
+    "observationCode": "204",
+    "observationTitle": "Obesity",
+    "group": "",
+    "indicationText": "Administer to persons with obesity",
+    "contraindicationText": "",
+    "clarifyingText": "includes BMIs categories of overweight, obese, and severely obese",
+    "codedValues": [
+      {
+        "code": "238131007",
+        "codeSystem": "SNOMED",
+        "text": "Overweight [finding]"
+      },
+      {
+        "code": "414915002",
+        "codeSystem": "SNOMED",
+        "text": "Obese [finding]"
+      },
+      {
+        "code": "83911000119104",
+        "codeSystem": "SNOMED",
+        "text": "Severe obesity [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 205,
+    "observationCode": "205",
+    "observationTitle": "Thalassemia",
+    "group": "",
+    "indicationText": "Administer to persons with thalassemia",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "40108008",
+        "codeSystem": "SNOMED",
+        "text": "Thalassemia [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 206,
+    "observationCode": "206",
+    "observationTitle": "Cerebrovascular disease",
+    "group": "",
+    "indicationText": "Administer to persons with cerebrovascular disease such as having a stroke",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "62914000",
+        "codeSystem": "SNOMED",
+        "text": "Cerebrovascular disease [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 207,
+    "observationCode": "207",
+    "observationTitle": "Substance use disorder",
+    "group": "",
+    "indicationText": "Administer to persons with substance use disorders (e.g., alcohol, opioid, cocaine)",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 208,
+    "observationCode": "208",
+    "observationTitle": "Mental Health conditions",
+    "group": "",
+    "indicationText": "Administer to persons with mental health conditions",
+    "contraindicationText": "",
+    "clarifyingText": "Includes mood disorders, depression, and schizophrenia spectrum disorders.",
+    "codedValues": []
+  },
+  {
+    "key": 209,
+    "observationCode": "209",
+    "observationTitle": "History of thrombosis with thrombocytopenia following the Janssen COVID-19 Vaccine or any other adenovirus-vectored COVID-19 vaccines",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not administer the Janssen COVID-19 vaccine to individuals with a history of thrombosis with thrombocytopenia following the Janssen COVID-19 vaccine or any other adenovirus-vectored COVID-19 vaccines (e.g., AstraZeneca\u0027s COVID-19 vaccine which is not authorized or approved in the United States)",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 210,
+    "observationCode": "210",
+    "observationTitle": "Severe allergic reaction after previous dose of Dengue vaccine",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Dengue vaccine.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 211,
+    "observationCode": "211",
+    "observationTitle": "Evidence of previous dengue infection and living in areas where dengue is endemic",
+    "group": "",
+    "indicationText": "Administer to persons with evidence of previous dengue infection and living in areas where dengue is endemic.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 212,
+    "observationCode": "212",
+    "observationTitle": "Health care personnel involved in the care and transport of patients with suspected or confirmed Ebola virus disease at Special Pathogen Treatment Centers",
+    "group": "",
+    "indicationText": "Administer to persons working as Health care personnel involved in the care and transport of patients with suspected or confirmed Ebola virus disease at Special Pathogen Treatment Centers.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 213,
+    "observationCode": "213",
+    "observationTitle": "Laboratorians and support staff members at Laboratory Response Network (LRN) facilities that handle specimens that might contain replication-competent Ebola virus in the United States",
+    "group": "",
+    "indicationText": "Administer to persons working as Laboratorians and support staff members at Laboratory Response Network (LRN) facilities that handle specimens that might contain replication-competent Ebola virus in the United States.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 214,
+    "observationCode": "214",
+    "observationTitle": "Chronic obstructive pulmonary disease",
+    "group": "",
+    "indicationText": "Administer to persons with chronic obstructive pulmonary disease",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "13645005",
+        "codeSystem": "SNOMED",
+        "text": "Chronic obstructive lung disease [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 215,
+    "observationCode": "215",
+    "observationTitle": "Emphysema",
+    "group": "",
+    "indicationText": "Administer to persons with emphysema",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "87433001",
+        "codeSystem": "SNOMED",
+        "text": "Pulmonary emphysema [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 216,
+    "observationCode": "216",
+    "observationTitle": "Iatrogenic Immunosuppression",
+    "group": "",
+    "indicationText": "Administer to persons with iatrogenic Immunosuppression",
+    "contraindicationText": "",
+    "clarifyingText": "Diseases requiring treatment with immunosuppressive drugs, including long-term systemic corticosteroids and radiation therapy",
+    "codedValues": []
+  },
+  {
+    "key": 217,
+    "observationCode": "217",
+    "observationTitle": "Persons working in rabies vaccine production facilities",
+    "group": "",
+    "indicationText": "Administer to persons working in rabies vaccine production facilities",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 218,
+    "observationCode": "218",
+    "observationTitle": "Persons performing testing for rabies in diagnostic laboratories",
+    "group": "",
+    "indicationText": "Administer to persons performing testing for rabies in diagnostic laboratories",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 219,
+    "observationCode": "219",
+    "observationTitle": "Persons who frequently handle bats",
+    "group": "",
+    "indicationText": "Administer to persons who frequently handle bats.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 220,
+    "observationCode": "220",
+    "observationTitle": "Persons who frequently have contact with bats",
+    "group": "",
+    "indicationText": "Administer to persons who frequently have contact with bats.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 221,
+    "observationCode": "221",
+    "observationTitle": "Persons who frequently enter high-density bat environments",
+    "group": "",
+    "indicationText": "Administer to persons who frequently enter high-density bat environments.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 222,
+    "observationCode": "222",
+    "observationTitle": "Persons who frequently perform animal necropsies",
+    "group": "",
+    "indicationText": "Administer to persons who frequently perform animal necropsies.",
+    "contraindicationText": "",
+    "clarifyingText": "For example, biologists who frequently enter bat roosts or who collect suspected rabies samples.",
+    "codedValues": []
+  },
+  {
+    "key": 223,
+    "observationCode": "223",
+    "observationTitle": "Severe allergic reaction after previous dose of orthopoxvirus vaccine",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of vaccinia vaccine.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 224,
+    "observationCode": "224",
+    "observationTitle": "History or presence of atopic dermatitis",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has history or presence of atopic dermatitis. ",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 225,
+    "observationCode": "225",
+    "observationTitle": "Household contact with history or presence of atopic dermatitis",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if potential vaccinee has a household contact with history or presence of atopic dermatitis. Household contacts include persons with prolonged intimate contact with the potential vaccinee (e.g., sexual contacts) and others who might have direct contact with the vaccination site or with potentially contaminated materials (e.g., dressings or clothing).",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 226,
+    "observationCode": "226",
+    "observationTitle": "Active exfoliative skin conditions",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has active exfoliative skin conditions.",
+    "clarifyingText": "Conditions include eczema, burns, impetigo, varicella-zoster, herpes, severe acne, severe diaper dermatitis with extensive areas of denuded skin, psoriasis, or Darier disease (keratosis follicularis).",
+    "codedValues": []
+  },
+  {
+    "key": 227,
+    "observationCode": "227",
+    "observationTitle": "Household contact with active exfoliative skin conditions",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if potential vaccinee has a household contact with active exfoliative skin conditions. Household contacts include persons with prolonged intimate contact with the potential vaccinee (e.g., sexual contacts) and others who might have direct contact with the vaccination site or with potentially contaminated materials (e.g., dressings or clothing).",
+    "clarifyingText": "Conditions include eczema, burns, impetigo, varicella-zoster, herpes, severe acne, severe diaper dermatitis with extensive areas of denuded skin, psoriasis, or Darier disease (keratosis follicularis).",
+    "codedValues": []
+  },
+  {
+    "key": 228,
+    "observationCode": "228",
+    "observationTitle": "Household contact is pregnant",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if potential vaccinee has a household contact who is pregnant. Household contacts include persons with prolonged intimate contact with the potential vaccinee (e.g., sexual contacts) and others who might have direct contact with the vaccination site or with potentially contaminated materials (e.g., dressings or clothing).",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 229,
+    "observationCode": "229",
+    "observationTitle": "Age is less than 1 year",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient age is less than 1 year.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 230,
+    "observationCode": "230",
+    "observationTitle": "Household contact who is less than 1 year of age",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if potential vaccinee has a household contact who is less than 1 year of age. Household contacts include persons with prolonged contact with the potential vaccinee and others who might have direct contact with the vaccination site or with potentially contaminated materials (e.g., dressings or clothing).",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 231,
+    "observationCode": "231",
+    "observationTitle": "3 or more known major cardiac risk factors",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has 3 or more known major cardiac risk factors.",
+    "clarifyingText": "Major cardiac risk factors include hypertension, diabetes, hypercholesterolemia, heart disease at age ?50 years in a first-degree relative, and smoking.",
+    "codedValues": []
+  },
+  {
+    "key": 232,
+    "observationCode": "232",
+    "observationTitle": "Research laboratory personnel working with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+    "group": "",
+    "indicationText": "Administer to research laboratory personnel working with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 233,
+    "observationCode": "233",
+    "observationTitle": "Clinical laboratory personnel performing diagnostic testing for more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+    "group": "",
+    "indicationText": "Administer to clinical laboratory personnel performing diagnostic testing for more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 234,
+    "observationCode": "234",
+    "observationTitle": "Designated response team members working with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+    "group": "",
+    "indicationText": "Administer to designated response team members working with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 235,
+    "observationCode": "235",
+    "observationTitle": "Healthcare personnel who care for patients infected with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+    "group": "",
+    "indicationText": "Administer to healthcare personnel who care for patients infected with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 236,
+    "observationCode": "236",
+    "observationTitle": "Research laboratory personnel working with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+    "group": "",
+    "indicationText": "Administer to research laboratory personnel working with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 237,
+    "observationCode": "237",
+    "observationTitle": "Clinical laboratory personnel performing diagnostic testing for less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+    "group": "",
+    "indicationText": "Administer to clinical laboratory personnel performing diagnostic testing for less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 238,
+    "observationCode": "238",
+    "observationTitle": "Designated response team members working with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+    "group": "",
+    "indicationText": "Administer to designated response team members working with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 239,
+    "observationCode": "239",
+    "observationTitle": "Healthcare personnel who administer ACAM2000",
+    "group": "",
+    "indicationText": "Administer to healthcare personnel who administer ACAM2000",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 240,
+    "observationCode": "240",
+    "observationTitle": "Healthcare personnel who care for patients infected with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+    "group": "",
+    "indicationText": "Administer to healthcare personnel who care for patients infected with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 241,
+    "observationCode": "241",
+    "observationTitle": "Known exposure to mpox",
+    "group": "",
+    "indicationText": "Administer to persons who are known contacts to someone with mpox who are identified by public health authorities",
+    "contraindicationText": "",
+    "clarifyingText": "People who are known contacts to someone with mpox who are identified by public health authorities, for example via case investigation, contact tracing, or risk exposure assessment",
+    "codedValues": []
+  },
+  {
+    "key": 242,
+    "observationCode": "242",
+    "observationTitle": "Presumed exposure to mpox",
+    "group": "",
+    "indicationText": "Administer to persons who have presumed exposure to mpox",
+    "contraindicationText": "",
+    "clarifyingText": "People who are aware that a recent sex partner within the  past 14 days was diagnosed with mpox. Certain gay, bisexual, or other men who have sex with men, or transgender people who have had any of following within the past 14 days: sex with multiple partners (or group sex); sex at a commercial sex venue; or sex in association with an event, venue, or defined geographic area where mpox transmission is occurring.",
+    "codedValues": []
+  },
+  {
+    "key": 243,
+    "observationCode": "243",
+    "observationTitle": "Lack of laboratory confirmation of a previous Dengue infection",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient lacks laboratory confirmation of a previous Dengue infection.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 244,
+    "observationCode": "244",
+    "observationTitle": "Severe allergic reaction after previous dose of RSV vaccine",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of RSV vaccine.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 245,
+    "observationCode": "245",
+    "observationTitle": "American Indian or Alaskan Native",
+    "group": "",
+    "indicationText": "Administer to American Indian or Alaskan Native children",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "413490006",
+        "codeSystem": "SNOMED",
+        "text": "American Indian or Alaska Native [racial group]"
+      }
+    ]
+  },
+  {
+    "key": 246,
+    "observationCode": "246",
+    "observationTitle": "Severe immunocompromise",
+    "group": "",
+    "indicationText": "Administer to persons with severe immunocompromise.",
+    "contraindicationText": "Do not vaccinate persons with severe immunocompromise.",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 247,
+    "observationCode": "247",
+    "observationTitle": "Gay, bisexual, and other men who have sex with men, transgender or nonbinary people who in the past 6 months have had one of the following: \n1) A new diagnosis of \u2265 1 sexually transmitted disease\n2)  More than one sex partner\n3)  Sex at a commercial sex venue\n4)   Sex in association with a large public event in a geographic area where mpox transmission is occurring",
+    "group": "",
+    "indicationText": "Administer to gay, bisexual, and other men who have sex with men, transgender or nonbinary people who in the past 6 months have had one of the following: \n1) A new diagnosis of \u2265 1 sexually transmitted disease\n2)  More than one sex partner\n3)  Sex at a commercial sex venue\n4)   Sex in association with a large public event in a geographic area where mpox transmission is occurring",
+    "contraindicationText": "",
+    "clarifyingText": "Includes persons who anticipate experiencing any of the risk factors.",
+    "codedValues": []
+  },
+  {
+    "key": 248,
+    "observationCode": "248",
+    "observationTitle": "Sexual partners of gay, bisexual, and other men who have sex with men, transgender or nonbinary people who in the past 6 months have had one of the following: \n1) A new diagnosis of \u2265 1 sexually transmitted disease\n2)  More than one sex partner\n3)  Sex at a commercial sex venue\n4)   Sex in association with a large public event in a geographic area where mpox transmission is occurring",
+    "group": "",
+    "indicationText": "Administer to sexual partners of gay, bisexual, and other men who have sex with men, transgender or nonbinary people who in the past 6 months have had one of the following: \n1) A new diagnosis of \u2265 1 sexually transmitted disease\n2)  More than one sex partner\n3)  Sex at a commercial sex venue\n4)   Sex in association with a large public event in a geographic area where mpox transmission is occurring",
+    "contraindicationText": "",
+    "clarifyingText": "Includes persons who anticipate experiencing any of the risk factors.",
+    "codedValues": []
+  },
+  {
+    "key": 249,
+    "observationCode": "249",
+    "observationTitle": "Moving or traveling to an area where TBE is endemic and will have extensive exposure to ticks because of their planned outdoor activities and itinerary",
+    "group": "",
+    "indicationText": "Administer to persons moving or traveling to an area where TBE is endemic and will have extensive exposure to ticks because of their planned outdoor activities and itinerary",
+    "contraindicationText": "",
+    "clarifyingText": "Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: https://wwwnc.cdc.gov/travel/yellowbook/2024/infections-diseases/tick-borne-encephalitis\n",
+    "codedValues": []
+  },
+  {
+    "key": 250,
+    "observationCode": "250",
+    "observationTitle": "Moving or traveling to an area where TBE is endemic who might engage in outdoor activities in areas where ticks are likely to be found",
+    "group": "",
+    "indicationText": "TBE vaccine may be considered for persons moving or traveling to an area where TBE is endemic who might engage in outdoor activities in areas where ticks are likely to be found",
+    "contraindicationText": "",
+    "clarifyingText": "Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: https://wwwnc.cdc.gov/travel/yellowbook/2024/infections-diseases/tick-borne-encephalitis\n",
+    "codedValues": []
+  },
+  {
+    "key": 251,
+    "observationCode": "251",
+    "observationTitle": "Laboratory workers with a potential for exposure to TBE virus",
+    "group": "",
+    "indicationText": "Administer to laboratory workers with a potential for exposure to TBE virus",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 252,
+    "observationCode": "252",
+    "observationTitle": "Severe allergic reaction after previous dose of Tick-borne Encephalitis vaccine",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Tick-borne Encephalitis vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "77",
+        "codeSystem": "CVX",
+        "text": "Tick-borne encephalitis vaccine (non-US)"
+      },
+      {
+        "code": "222",
+        "codeSystem": "CVX",
+        "text": "Tick-borne encephalitis, unspecified"
+      },
+      {
+        "code": "223",
+        "codeSystem": "CVX",
+        "text": "Tick-borne encephalitis, inactivated, PF, 0.25mL"
+      },
+      {
+        "code": "224",
+        "codeSystem": "CVX",
+        "text": "Tick-borne encephalitis, inactivated, PF, 0.5mL"
+      },
+      {
+        "code": "VXC20",
+        "codeSystem": "CDCPHINVS",
+        "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+      }
+    ]
+  },
+  {
+    "key": 253,
+    "observationCode": "253",
+    "observationTitle": "Moderate persistent or severe persistent asthma",
+    "group": "",
+    "indicationText": "Administer to persons who have Moderate persistent or severe persistent asthma.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "370219009",
+        "codeSystem": "SNOMED",
+        "text": "Moderate Asthma [disorder]"
+      },
+      {
+        "code": "427295004",
+        "codeSystem": "SNOMED",
+        "text": "Moderate Persistent Asthma [disorder]"
+      },
+      {
+        "code": "370221004",
+        "codeSystem": "SNOMED",
+        "text": "Severe Asthma [disorder]"
+      },
+      {
+        "code": "426656000",
+        "codeSystem": "SNOMED",
+        "text": "Severe Persistent Asthma [disorder]"
+      },
+      {
+        "code": "5281000124103",
+        "codeSystem": "SNOMED",
+        "text": "Persistent Asthma [disorder]"
+      },
+      {
+        "code": "2360001000004109",
+        "codeSystem": "SNOMED",
+        "text": "Steroid dependent asthma [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 254,
+    "observationCode": "254",
+    "observationTitle": "Chronic cardiovascular disease",
+    "group": "",
+    "indicationText": "Administer to persons with chronic cardiovascular disease.",
+    "contraindicationText": "",
+    "clarifyingText": "Includes heart failure, coronary artery disease, congenital heart disease, excluding isolated hypertension",
+    "codedValues": [
+      {
+        "code": "128292002",
+        "codeSystem": "SNOMED",
+        "text": "Chronic disease of cardiovascular system [disorder]"
+      },
+      {
+        "code": "400047006",
+        "codeSystem": "SNOMED",
+        "text": "Peripheral vascular disease [disorder]"
+      },
+      {
+        "code": "21631000119105",
+        "codeSystem": "SNOMED",
+        "text": "Limb ischemia [disorder]"
+      },
+      {
+        "code": "63491006",
+        "codeSystem": "SNOMED",
+        "text": "Intermittent claudication [finding]"
+      },
+      {
+        "code": "65198009",
+        "codeSystem": "SNOMED",
+        "text": "Arterial thrombosis [disorder]"
+      },
+      {
+        "code": "111354009",
+        "codeSystem": "SNOMED",
+        "text": "Chronic vascular insufficiency of intestine [disorder]"
+      },
+      {
+        "code": "70995007",
+        "codeSystem": "SNOMED",
+        "text": "Pulmonary hypertension [disorder]"
+      },
+      {
+        "code": "59282003",
+        "codeSystem": "SNOMED",
+        "text": "Pulmonary embolism [disorder]"
+      },
+      {
+        "code": "17920008",
+        "codeSystem": "SNOMED",
+        "text": "Portal vein thrombosis [disorder]"
+      },
+      {
+        "code": "67362008",
+        "codeSystem": "SNOMED",
+        "text": "Aortic aneurysm [disorder]"
+      },
+      {
+        "code": "233996000",
+        "codeSystem": "SNOMED",
+        "text": "Type II dissection of thoracic aorta [disorder]"
+      },
+      {
+        "code": "301899003",
+        "codeSystem": "SNOMED",
+        "text": "Dissection of proximal aorta [disorder]"
+      },
+      {
+        "code": "233997009",
+        "codeSystem": "SNOMED",
+        "text": "Dissection of distal aorta [disorder]"
+      },
+      {
+        "code": "27631000146108",
+        "codeSystem": "SNOMED",
+        "text": "Dissection of aortic arch [disorder]"
+      },
+      {
+        "code": "45894003",
+        "codeSystem": "SNOMED",
+        "text": "Medionecrosis of aorta [disorder]"
+      },
+      {
+        "code": "1303726005",
+        "codeSystem": "SNOMED",
+        "text": "Dissection of infrarenal aorta [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 256,
+    "observationCode": "256",
+    "observationTitle": "Diabetes mellitus complicated by chronic kidney disease",
+    "group": "",
+    "indicationText": "Administer to persons with diabetes mellitus complicated by chronic kidney disease",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "127013003",
+        "codeSystem": "SNOMED",
+        "text": "Disorder of kidney due to diabetes mellitus [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 257,
+    "observationCode": "257",
+    "observationTitle": "Severe obesity",
+    "group": "",
+    "indicationText": "Administer to persons with severe obesity",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "83911000119104",
+        "codeSystem": "SNOMED",
+        "text": "Severe obesity [disorder]"
+      },
+      {
+        "code": "408512008",
+        "codeSystem": "SNOMED",
+        "text": "Body mass index 40\u002B - severely obese [finding]"
+      }
+    ]
+  },
+  {
+    "key": 258,
+    "observationCode": "258",
+    "observationTitle": "Chronic hematologic disorders",
+    "group": "",
+    "indicationText": "Administer to persons with chronic hematologic disorders.",
+    "contraindicationText": "",
+    "clarifyingText": "Includes sickle cell disease and thalassemia.",
+    "codedValues": [
+      {
+        "code": "414027002",
+        "codeSystem": "SNOMED",
+        "text": "Disorder of hematopoietic structure [disorder]"
+      },
+      {
+        "code": "417357006",
+        "codeSystem": "SNOMED",
+        "text": "Sickling disorder due to hemoglobin S [disorder]"
+      },
+      {
+        "code": "40108008",
+        "codeSystem": "SNOMED",
+        "text": "Thalassemia [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 259,
+    "observationCode": "259",
+    "observationTitle": "Sickle cell disease",
+    "group": "",
+    "indicationText": "Administer to persons with sickle cell disease.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "417357006",
+        "codeSystem": "SNOMED",
+        "text": "Sickling disorder due to hemoglobin S [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 260,
+    "observationCode": "260",
+    "observationTitle": "Neurologic or neuromuscular conditions causing impaired airway clearance or respiratory muscle weakness",
+    "group": "",
+    "indicationText": "Administer to persons with neurologic or neuromuscular conditions causing impaired airway clearance or respiratory muscle weakness",
+    "contraindicationText": "",
+    "clarifyingText": "Includes poststroke dysphagia, amyotrophic lateral sclerosis, muscular dystrophy; excluding history of stroke without impaired airway clearance",
+    "codedValues": [
+      {
+        "code": "350586651000119105",
+        "codeSystem": "SNOMED",
+        "text": "Chronic respiratory failure due to neuromuscular disease [disorder]"
+      },
+      {
+        "code": "67750007",
+        "codeSystem": "SNOMED",
+        "text": "Ineffective airway clearance [finding]"
+      }
+    ]
+  },
+  {
+    "key": 261,
+    "observationCode": "261",
+    "observationTitle": "Resident of a nursing home",
+    "group": "",
+    "indicationText": "Administer to persons who reside in a nursing home",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "160734000",
+        "codeSystem": "SNOMED",
+        "text": "Lives in nursing home [finding]"
+      }
+    ]
+  },
+  {
+    "key": 262,
+    "observationCode": "262",
+    "observationTitle": "Frailty",
+    "group": "",
+    "indicationText": "Administer to persons who are frail",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "248279007",
+        "codeSystem": "SNOMED",
+        "text": "Frailty [finding]"
+      }
+    ]
+  },
+  {
+    "key": 263,
+    "observationCode": "263",
+    "observationTitle": "Diabetes mellitus complicated by neuropathy",
+    "group": "",
+    "indicationText": "Administer to persons with diabetes mellitus complicated by neuropathy",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "230572002",
+        "codeSystem": "SNOMED",
+        "text": "Neuropathy due to diabetes mellitus [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 264,
+    "observationCode": "264",
+    "observationTitle": "Diabetes mellitus complicated by retinopathy",
+    "group": "",
+    "indicationText": "Administer to persons with diabetes mellitus complicated by retinopathy",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "4855003",
+        "codeSystem": "SNOMED",
+        "text": "Retinopathy due to diabetes mellitus [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 265,
+    "observationCode": "265",
+    "observationTitle": "Diabetes mellitus complicated by end-organ damage",
+    "group": "",
+    "indicationText": "Administer to persons with diabetes mellitus complicated by end-organ damage",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 266,
+    "observationCode": "266",
+    "observationTitle": "Diabetes requiring treatment with insulin",
+    "group": "",
+    "indicationText": "Administer to persons with diabetes requiring treatment with insulin",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "170747006",
+        "codeSystem": "SNOMED",
+        "text": "Diabetic on insulin [finding]"
+      }
+    ]
+  },
+  {
+    "key": 267,
+    "observationCode": "267",
+    "observationTitle": "Diabetes requiring treatment with sodium-glucose cotransporter-2 (SGLT2) inhibitor",
+    "group": "",
+    "indicationText": "Administer to persons with diabetes requiring treatment with sodium-glucose cotransporter-2 (SGLT2) inhibitor",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 268,
+    "observationCode": "268",
+    "observationTitle": "Islet Transplantation",
+    "group": "",
+    "indicationText": "Administer to persons who received an islet transplant",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "128531006",
+        "codeSystem": "SNOMED",
+        "text": "Islet cell transplant [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 269,
+    "observationCode": "269",
+    "observationTitle": "Transplantation",
+    "group": "",
+    "indicationText": "Administer to persons who received a transplant",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "77465005",
+        "codeSystem": "SNOMED",
+        "text": "Transplantation [procedure]"
+      }
+    ]
+  },
+  {
+    "key": 270,
+    "observationCode": "270",
+    "observationTitle": "Severe allergic reaction after previous dose of Chikungunya vaccine",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after previous dose of Chikungunya vaccine",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "317",
+        "codeSystem": "CVX",
+        "text": "Chikungunya live attenuated vaccine, 0.5 mL, PF"
+      }
+    ]
+  },
+  {
+    "key": 271,
+    "observationCode": "271",
+    "observationTitle": "Traveling to a country or territory where there is a chikungunya outbreak",
+    "group": "",
+    "indicationText": "Administer to persons traveling to a country or territory where there is a chikungunya outbreak",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 272,
+    "observationCode": "272",
+    "observationTitle": "Traveling to a country or territory without an outbreak but with evidence of chikungunya virus transmission among humans within the last 5 years",
+    "group": "",
+    "indicationText": "Persons traveling to a country or territory without an outbreak but with evidence of chikungunya virus transmission among humans within the last 5 years may consider vaccination",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 273,
+    "observationCode": "273",
+    "observationTitle": "Immunoglobulin deficiency",
+    "group": "",
+    "indicationText": "Administer to persons with an immunoglobulin deficiency",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+      {
+        "code": "124950009",
+        "codeSystem": "SNOMED",
+        "text": "Deficiency of immunoglobulin [disorder]"
+      }
+    ]
+  },
+  {
+    "key": 274,
+    "observationCode": "274",
+    "observationTitle": "Early component complement inhibitor use",
+    "group": "",
+    "indicationText": "Administer to persons using an early component complement inhibitor",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 275,
+    "observationCode": "275",
+    "observationTitle": "Persons at risk during a measles outbreak",
+    "group": "",
+    "indicationText": "Administer to persons identified as at increased risk during a community measles outbreak.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": []
+  },
+  {
+    "key": 276,
+    "observationCode": "276",
+    "observationTitle": "Age is 60 years or older",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient age is 60 years or older.",
+    "clarifyingText": "",
+    "codedValues": []
+  }
+]

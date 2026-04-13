@@ -1,0 +1,132 @@
+[
+  {
+    "key": "chikungunya",
+    "name": "Chikungunya",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "cholera",
+    "name": "Cholera",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "covid-19",
+    "name": "COVID-19",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "dengue",
+    "name": "Dengue",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "dtap-tdap-td",
+    "name": "DTaP/Tdap/Td",
+    "administerFullVaccineGroup": "No"
+  },
+  {
+    "key": "ebola",
+    "name": "Ebola",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "hep-a",
+    "name": "HepA",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "hep-b",
+    "name": "HepB",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "hib",
+    "name": "Hib",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "hpv",
+    "name": "HPV",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "influenza",
+    "name": "Influenza",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "japanese-encephalitis",
+    "name": "Japanese Encephalitis",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "meningococcal",
+    "name": "Meningococcal",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "meningococcal-b",
+    "name": "Meningococcal B",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "mmr",
+    "name": "MMR",
+    "administerFullVaccineGroup": "Yes"
+  },
+  {
+    "key": "orthopoxvirus",
+    "name": "Orthopoxvirus",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "pneumococcal",
+    "name": "Pneumococcal",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "polio",
+    "name": "Polio",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "rabies",
+    "name": "Rabies",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "rotavirus",
+    "name": "Rotavirus",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "rsv",
+    "name": "RSV",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "tbe",
+    "name": "TBE",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "typhoid",
+    "name": "Typhoid",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "varicella",
+    "name": "Varicella",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "yellow-fever",
+    "name": "Yellow Fever",
+    "administerFullVaccineGroup": null
+  },
+  {
+    "key": "zoster",
+    "name": "Zoster",
+    "administerFullVaccineGroup": null
+  }
+]

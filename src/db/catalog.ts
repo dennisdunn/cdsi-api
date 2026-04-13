@@ -1,9 +1,9 @@
 
-import groups from "./groups.json"
-import antigens from "./antigens.json";
-import vaccines from "./vaccines.json";
-import testcases from "./testcases.json";
-import observations from "./observations.json";
+import groups from "./vaccine-group.json"
+import antigens from "./antigen.json";
+import vaccines from "./vaccine.json";
+import testcases from "./case.json";
+import observations from "./observation.json";
 
 export default {
     groups: groups.map(item => ({ name: item.key, desc: item.name })),

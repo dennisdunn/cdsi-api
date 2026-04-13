@@ -1,0 +1,2877 @@
+[
+  {
+    "key": 1,
+    "cvx": "01",
+    "shortDescription": "DTP",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 2,
+    "cvx": "02",
+    "shortDescription": "OPV",
+    "association": [
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 3,
+    "cvx": "03",
+    "shortDescription": "MMR",
+    "association": [
+      {
+        "antigen": "measles",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "mumps",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "rubella",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 4,
+    "cvx": "04",
+    "shortDescription": "M/R",
+    "association": [
+      {
+        "antigen": "measles",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "rubella",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 5,
+    "cvx": "05",
+    "shortDescription": "measles",
+    "association": [
+      {
+        "antigen": "measles",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 6,
+    "cvx": "06",
+    "shortDescription": "rubella",
+    "association": [
+      {
+        "antigen": "rubella",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 7,
+    "cvx": "07",
+    "shortDescription": "mumps",
+    "association": [
+      {
+        "antigen": "mumps",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 8,
+    "cvx": "08",
+    "shortDescription": "Hep B, adolescent or pediatric",
+    "association": [
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 9,
+    "cvx": "09",
+    "shortDescription": "Td (adult), adsorbed",
+    "association": [
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 10,
+    "cvx": "10",
+    "shortDescription": "IPV",
+    "association": [
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 11,
+    "cvx": "11",
+    "shortDescription": "pertussis",
+    "association": [
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 15,
+    "cvx": "15",
+    "shortDescription": "influenza, split (incl. purified surface antigen)",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 16,
+    "cvx": "16",
+    "shortDescription": "influenza, whole",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 17,
+    "cvx": "17",
+    "shortDescription": "Hib, unspecified formulation",
+    "association": [
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 18,
+    "cvx": "18",
+    "shortDescription": "Rabies, intramuscular injection",
+    "association": [
+      {
+        "antigen": "rabies",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 20,
+    "cvx": "20",
+    "shortDescription": "DTaP",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 21,
+    "cvx": "21",
+    "shortDescription": "varicella",
+    "association": [
+      {
+        "antigen": "varicella",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 22,
+    "cvx": "22",
+    "shortDescription": "DTP-Hib",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 25,
+    "cvx": "25",
+    "shortDescription": "Typhoid oral, live, attenuated",
+    "association": [
+      {
+        "antigen": "typhoid",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 26,
+    "cvx": "26",
+    "shortDescription": "cholera, unspecified formulation",
+    "association": [
+      {
+        "antigen": "cholera",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 28,
+    "cvx": "28",
+    "shortDescription": "DT (pediatric)",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 31,
+    "cvx": "31",
+    "shortDescription": "Hep A, pediatric, unspecified formulation",
+    "association": [
+      {
+        "antigen": "hep-a",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 32,
+    "cvx": "32",
+    "shortDescription": "meningococcal MPSV4",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 33,
+    "cvx": "33",
+    "shortDescription": "pneumococcal polysaccharide PPV23",
+    "association": [
+      {
+        "antigen": "pneumococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 35,
+    "cvx": "35",
+    "shortDescription": "tetanus toxoid, adsorbed",
+    "association": [
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 37,
+    "cvx": "37",
+    "shortDescription": "Yellow Fever",
+    "association": [
+      {
+        "antigen": "yellow-fever",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 38,
+    "cvx": "38",
+    "shortDescription": "rubella/mumps",
+    "association": [
+      {
+        "antigen": "rubella",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "mumps",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 39,
+    "cvx": "39",
+    "shortDescription": "Japanese encephalitis SC",
+    "association": [
+      {
+        "antigen": "japanese-encephalitis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 40,
+    "cvx": "40",
+    "shortDescription": "rabies, intradermal injection",
+    "association": [
+      {
+        "antigen": "rabies",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 41,
+    "cvx": "41",
+    "shortDescription": "typhoid, parenteral",
+    "association": [
+      {
+        "antigen": "typhoid",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 42,
+    "cvx": "42",
+    "shortDescription": "Hep B, adolescent/high risk infant",
+    "association": [
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 43,
+    "cvx": "43",
+    "shortDescription": "Hep B, adult",
+    "association": [
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 44,
+    "cvx": "44",
+    "shortDescription": "Hep B, dialysis",
+    "association": [
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 45,
+    "cvx": "45",
+    "shortDescription": "Hep B, unspecified formulation",
+    "association": [
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 46,
+    "cvx": "46",
+    "shortDescription": "Hib (PRP-D)",
+    "association": [
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 47,
+    "cvx": "47",
+    "shortDescription": "Hib (HbOC)",
+    "association": [
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 48,
+    "cvx": "48",
+    "shortDescription": "Hib (PRP-T)",
+    "association": [
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 49,
+    "cvx": "49",
+    "shortDescription": "Hib (PRP-OMP)",
+    "association": [
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 50,
+    "cvx": "50",
+    "shortDescription": "DTaP-Hib",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 51,
+    "cvx": "51",
+    "shortDescription": "Hib-Hep B",
+    "association": [
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 52,
+    "cvx": "52",
+    "shortDescription": "Hep A, adult",
+    "association": [
+      {
+        "antigen": "hep-a",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 53,
+    "cvx": "53",
+    "shortDescription": "typhoid, parenteral, AKD (U.S. military)",
+    "association": [
+      {
+        "antigen": "typhoid",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 56,
+    "cvx": "56",
+    "shortDescription": "Dengue Fever",
+    "association": [
+      {
+        "antigen": "dengue",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 62,
+    "cvx": "62",
+    "shortDescription": "HPV, quadrivalent",
+    "association": [
+      {
+        "antigen": "hpv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 74,
+    "cvx": "74",
+    "shortDescription": "rotavirus, tetravalent",
+    "association": [
+      {
+        "antigen": "rotavirus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 75,
+    "cvx": "75",
+    "shortDescription": "vaccinia - smallpox",
+    "association": [
+      {
+        "antigen": "orthopoxvirus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 77,
+    "cvx": "77",
+    "shortDescription": "Tick-borne encephalitis vaccine (non-US)",
+    "association": [
+      {
+        "antigen": "tbe",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 83,
+    "cvx": "83",
+    "shortDescription": "Hep A, ped/adol, 2 dose",
+    "association": [
+      {
+        "antigen": "hep-a",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 84,
+    "cvx": "84",
+    "shortDescription": "Hep A, ped/adol, 3 dose",
+    "association": [
+      {
+        "antigen": "hep-a",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 85,
+    "cvx": "85",
+    "shortDescription": "Hep A, unspecified formulation",
+    "association": [
+      {
+        "antigen": "hep-a",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 88,
+    "cvx": "88",
+    "shortDescription": "influenza, unspecified formulation",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 89,
+    "cvx": "89",
+    "shortDescription": "polio, unspecified formulation",
+    "association": [
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 90,
+    "cvx": "90",
+    "shortDescription": "Rabies, unspecified formulation",
+    "association": [
+      {
+        "antigen": "rabies",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 91,
+    "cvx": "91",
+    "shortDescription": "typhoid, unspecified formulation",
+    "association": [
+      {
+        "antigen": "typhoid",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 94,
+    "cvx": "94",
+    "shortDescription": "MMRV",
+    "association": [
+      {
+        "antigen": "measles",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "mumps",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "rubella",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "varicella",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 100,
+    "cvx": "100",
+    "shortDescription": "pneumococcal conjugate PCV 7",
+    "association": [
+      {
+        "antigen": "pneumococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 101,
+    "cvx": "101",
+    "shortDescription": "Typhoid capsular polysaccharide",
+    "association": [
+      {
+        "antigen": "typhoid",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 102,
+    "cvx": "102",
+    "shortDescription": "DTP-Hib-Hep B",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 103,
+    "cvx": "103",
+    "shortDescription": "meningococcal C conjugate",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 104,
+    "cvx": "104",
+    "shortDescription": "Hep A-Hep B",
+    "association": [
+      {
+        "antigen": "hep-a",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 105,
+    "cvx": "105",
+    "shortDescription": "vaccinia - smallpox diluted",
+    "association": [
+      {
+        "antigen": "orthopoxvirus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 106,
+    "cvx": "106",
+    "shortDescription": "DTaP, 5 pertussis antigens",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 107,
+    "cvx": "107",
+    "shortDescription": "DTaP, unspecified formulation",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 108,
+    "cvx": "108",
+    "shortDescription": "meningococcal, unspecified formulation",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 109,
+    "cvx": "109",
+    "shortDescription": "pneumococcal, unspecified formulation",
+    "association": [
+      {
+        "antigen": "pneumococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 110,
+    "cvx": "110",
+    "shortDescription": "DTaP-Hep B-IPV",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 111,
+    "cvx": "111",
+    "shortDescription": "influenza, live, trivalent, intranasal",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 112,
+    "cvx": "112",
+    "shortDescription": "tetanus toxoid, unspecified formulation",
+    "association": [
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 113,
+    "cvx": "113",
+    "shortDescription": "Td (adult) preservative free",
+    "association": [
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 114,
+    "cvx": "114",
+    "shortDescription": "meningococcal MCV4P",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 115,
+    "cvx": "115",
+    "shortDescription": "Tdap",
+    "association": [
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 116,
+    "cvx": "116",
+    "shortDescription": "rotavirus, pentavalent",
+    "association": [
+      {
+        "antigen": "rotavirus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 118,
+    "cvx": "118",
+    "shortDescription": "HPV, bivalent",
+    "association": [
+      {
+        "antigen": "hpv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 119,
+    "cvx": "119",
+    "shortDescription": "rotavirus, monovalent",
+    "association": [
+      {
+        "antigen": "rotavirus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 120,
+    "cvx": "120",
+    "shortDescription": "DTaP-Hib-IPV",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 121,
+    "cvx": "121",
+    "shortDescription": "Zoster live",
+    "association": [
+      {
+        "antigen": "varicella",
+        "associationBeginAge": "0 days",
+        "associationEndAge": "50 years"
+      },
+      {
+        "antigen": "zoster",
+        "associationBeginAge": "50 years",
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 122,
+    "cvx": "122",
+    "shortDescription": "rotavirus, unspecified formulation",
+    "association": [
+      {
+        "antigen": "rotavirus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 129,
+    "cvx": "129",
+    "shortDescription": "Japanese Encephalitis, unspecified formulation",
+    "association": [
+      {
+        "antigen": "japanese-encephalitis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 130,
+    "cvx": "130",
+    "shortDescription": "DTaP-IPV",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 132,
+    "cvx": "132",
+    "shortDescription": "DTaP-IPV-HIB-HEP B, historical",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 133,
+    "cvx": "133",
+    "shortDescription": "Pneumococcal conjugate PCV 13",
+    "association": [
+      {
+        "antigen": "pneumococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 134,
+    "cvx": "134",
+    "shortDescription": "Japanese Encephalitis, VC",
+    "association": [
+      {
+        "antigen": "japanese-encephalitis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 135,
+    "cvx": "135",
+    "shortDescription": "Influenza, high dose, trivalent, PF",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 136,
+    "cvx": "136",
+    "shortDescription": "Meningococcal MCV4O",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 137,
+    "cvx": "137",
+    "shortDescription": "HPV, unspecified formulation",
+    "association": [
+      {
+        "antigen": "hpv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 138,
+    "cvx": "138",
+    "shortDescription": "Td (adult)",
+    "association": [
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 139,
+    "cvx": "139",
+    "shortDescription": "Td(adult) unspecified formulation",
+    "association": [
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 140,
+    "cvx": "140",
+    "shortDescription": "Influenza, split virus, trivalent, PF",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 141,
+    "cvx": "141",
+    "shortDescription": "Influenza, split virus, trivalent, preservative",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 142,
+    "cvx": "142",
+    "shortDescription": "tetanus toxoid, not adsorbed",
+    "association": [
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 144,
+    "cvx": "144",
+    "shortDescription": "influenza, seasonal, intradermal, preservative free",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 146,
+    "cvx": "146",
+    "shortDescription": "DTaP,IPV,Hib,HepB",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 147,
+    "cvx": "147",
+    "shortDescription": "meningococcal MCV4, unspecified formulation",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 148,
+    "cvx": "148",
+    "shortDescription": "Meningococcal C/Y-HIB PRP",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 149,
+    "cvx": "149",
+    "shortDescription": "Influenza, live, quadrivalent, intranasal",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 150,
+    "cvx": "150",
+    "shortDescription": "Influenza, split virus, quadrivalent, PF",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 151,
+    "cvx": "151",
+    "shortDescription": "influenza, nasal, unspecified formulation",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 152,
+    "cvx": "152",
+    "shortDescription": "Pneumococcal Conjugate, unspecified formulation",
+    "association": [
+      {
+        "antigen": "pneumococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 153,
+    "cvx": "153",
+    "shortDescription": "Influenza, MDCK, trivalent, PF",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 155,
+    "cvx": "155",
+    "shortDescription": "Influenza, recombinant, trivalent, PF",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 158,
+    "cvx": "158",
+    "shortDescription": "Influenza, split virus, quadrivalent, preservative",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 161,
+    "cvx": "161",
+    "shortDescription": "Influenza, injectable, quadrivalent, preservative free, pediatric",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 162,
+    "cvx": "162",
+    "shortDescription": "Meningococcal B, recombinant",
+    "association": [
+      {
+        "antigen": "meningococcal-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 163,
+    "cvx": "163",
+    "shortDescription": "Meningococcal B, OMV",
+    "association": [
+      {
+        "antigen": "meningococcal-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 164,
+    "cvx": "164",
+    "shortDescription": "meningococcal B, unspecified",
+    "association": [
+      {
+        "antigen": "meningococcal-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 165,
+    "cvx": "165",
+    "shortDescription": "HPV9",
+    "association": [
+      {
+        "antigen": "hpv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 166,
+    "cvx": "166",
+    "shortDescription": "influenza, intradermal, quadrivalent, preservative free",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 167,
+    "cvx": "167",
+    "shortDescription": "meningococcal, unknown serogroups",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "meningococcal-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 168,
+    "cvx": "168",
+    "shortDescription": "Influenza, adjuvanted, trivalent, PF",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 169,
+    "cvx": "169",
+    "shortDescription": "Hep A, live attenuated",
+    "association": [
+      {
+        "antigen": "hep-a",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 170,
+    "cvx": "170",
+    "shortDescription": "DTAP/IPV/HIB - non-US",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 171,
+    "cvx": "171",
+    "shortDescription": "Influenza, MDCK, quadrivalent, PF",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 172,
+    "cvx": "172",
+    "shortDescription": "cholera, WC-rBS",
+    "association": [
+      {
+        "antigen": "cholera",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 173,
+    "cvx": "173",
+    "shortDescription": "cholera, BivWC",
+    "association": [
+      {
+        "antigen": "cholera",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 174,
+    "cvx": "174",
+    "shortDescription": "cholera, live attenuated",
+    "association": [
+      {
+        "antigen": "cholera",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 175,
+    "cvx": "175",
+    "shortDescription": "Rabies - IM Diploid cell culture",
+    "association": [
+      {
+        "antigen": "rabies",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 176,
+    "cvx": "176",
+    "shortDescription": "Rabies - IM fibroblast culture",
+    "association": [
+      {
+        "antigen": "rabies",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 177,
+    "cvx": "177",
+    "shortDescription": "pneumococcal conjugate PCV10",
+    "association": [
+      {
+        "antigen": "pneumococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 178,
+    "cvx": "178",
+    "shortDescription": "OPV bivalent",
+    "association": [
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 179,
+    "cvx": "179",
+    "shortDescription": "OPV ,monovalent, unspecified",
+    "association": [
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 182,
+    "cvx": "182",
+    "shortDescription": "OPV, Unspecified",
+    "association": [
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 183,
+    "cvx": "183",
+    "shortDescription": "Yellow fever vaccine - alt",
+    "association": [
+      {
+        "antigen": "yellow-fever",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 184,
+    "cvx": "184",
+    "shortDescription": "Yellow fever, unspecified formulation",
+    "association": [
+      {
+        "antigen": "yellow-fever",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 185,
+    "cvx": "185",
+    "shortDescription": "Influenza, recombinant, quadrivalent, PF",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 186,
+    "cvx": "186",
+    "shortDescription": "Influenza, MDCK, quadrivalent, preservative",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 187,
+    "cvx": "187",
+    "shortDescription": "zoster recombinant",
+    "association": [
+      {
+        "antigen": "zoster",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 188,
+    "cvx": "188",
+    "shortDescription": "zoster, unspecified formulation",
+    "association": [
+      {
+        "antigen": "zoster",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 189,
+    "cvx": "189",
+    "shortDescription": "Hep B, adjuvanted",
+    "association": [
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 190,
+    "cvx": "190",
+    "shortDescription": "Typhoid conjugate vaccine (TCV)",
+    "association": [
+      {
+        "antigen": "typhoid",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 191,
+    "cvx": "191",
+    "shortDescription": "meningococcal A polysaccharide",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 192,
+    "cvx": "192",
+    "shortDescription": "meningococcal AC polysaccharide",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 193,
+    "cvx": "193",
+    "shortDescription": "Hep A-Hep B, pediatric/adolescent",
+    "association": [
+      {
+        "antigen": "hep-a",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 194,
+    "cvx": "194",
+    "shortDescription": "Influenza, Southern Hemisphere, unspecified formulation",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 195,
+    "cvx": "195",
+    "shortDescription": "DT, IPV adsorbed",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 196,
+    "cvx": "196",
+    "shortDescription": "Td, adsorbed, preservative free, adult use, Lf unspecified",
+    "association": [
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 197,
+    "cvx": "197",
+    "shortDescription": "Influenza, high-dose, quadrivalent, PF",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 198,
+    "cvx": "198",
+    "shortDescription": "DTP-hepB-Hib Pentavalent Non-US",
+    "association": [
+      {
+        "antigen": "diphtheria",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "tetanus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "pertussis",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "hib",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 200,
+    "cvx": "200",
+    "shortDescription": "Influenza, Southern Hemisphere, pediatric, preservative free",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 201,
+    "cvx": "201",
+    "shortDescription": "Influenza, Southern Hemisphere, preservative free",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 202,
+    "cvx": "202",
+    "shortDescription": "Influenza, Southern Hemisphere, quadrivalent, with preservative",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 203,
+    "cvx": "203",
+    "shortDescription": "Meningococcal Polysaccharide groups A, C, Y, W-135 TT Conjugate",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 204,
+    "cvx": "204",
+    "shortDescription": "Ebola Zaire Vaccine, Live",
+    "association": [
+      {
+        "antigen": "ebola",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 205,
+    "cvx": "205",
+    "shortDescription": "Influenza, adjuvanted, quadrivalent, PF",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 206,
+    "cvx": "206",
+    "shortDescription": "vaccinia - smallpox mpox vaccine live, PF",
+    "association": [
+      {
+        "antigen": "orthopoxvirus",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 207,
+    "cvx": "207",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5 mL dose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 208,
+    "cvx": "208",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 210,
+    "cvx": "210",
+    "shortDescription": "COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 211,
+    "cvx": "211",
+    "shortDescription": "COVID-19 vaccine, Subunit, rS-nanoparticle\u002BMatrix-M1 Adjuvant, PF, 0.5 mL",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 212,
+    "cvx": "212",
+    "shortDescription": "SARS-COV-2 (COVID-19) vaccine, vector non-replicating, recombinant spike protein-Ad26, preservative free, 0.5 mL",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 213,
+    "cvx": "213",
+    "shortDescription": "SARS-COV-2 (COVID-19), vaccine Unspecified Formulation",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 214,
+    "cvx": "214",
+    "shortDescription": "Ebola, Unspecified",
+    "association": [
+      {
+        "antigen": "ebola",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 215,
+    "cvx": "215",
+    "shortDescription": "Pneumococcal conjugate PCV 15",
+    "association": [
+      {
+        "antigen": "pneumococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 216,
+    "cvx": "216",
+    "shortDescription": "Pneumococcal conjugate PCV 20",
+    "association": [
+      {
+        "antigen": "pneumococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 217,
+    "cvx": "217",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 218,
+    "cvx": "218",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose, tris-sucrose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 219,
+    "cvx": "219",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, 3 mcg/0.2 mL dose, tris-sucrose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 220,
+    "cvx": "220",
+    "shortDescription": "HepB recombinant, 3-antigen, Al(OH)3",
+    "association": [
+      {
+        "antigen": "hep-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 221,
+    "cvx": "221",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL dose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 222,
+    "cvx": "222",
+    "shortDescription": "Tick-borne encephalitis, unspecified",
+    "association": [
+      {
+        "antigen": "tbe",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 223,
+    "cvx": "223",
+    "shortDescription": "Tick-borne encephalitis, inactivated, PF, 0.25mL",
+    "association": [
+      {
+        "antigen": "tbe",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 224,
+    "cvx": "224",
+    "shortDescription": "Tick-borne encephalitis, inactivated, PF, 0.5mL",
+    "association": [
+      {
+        "antigen": "tbe",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 227,
+    "cvx": "227",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, pediatric 50 mcg/0.5 mL dose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 228,
+    "cvx": "228",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, pediatric 25 mcg/0.25 mL dose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 229,
+    "cvx": "229",
+    "shortDescription": "COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25 mcg/0.25 mL dose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 230,
+    "cvx": "230",
+    "shortDescription": "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 231,
+    "cvx": "231",
+    "shortDescription": "influenza, Southern Hemisphere, high-dose, quadrivalent",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 300,
+    "cvx": "300",
+    "shortDescription": "COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 301,
+    "cvx": "301",
+    "shortDescription": "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL dose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 302,
+    "cvx": "302",
+    "shortDescription": "COVID-19, mRNA, LNP-S, bivalent, PF, 3 mcg/0.2 mL dose",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 303,
+    "cvx": "303",
+    "shortDescription": "RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF",
+    "association": [
+      {
+        "antigen": "rsv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 304,
+    "cvx": "304",
+    "shortDescription": "Respiratory syncytial virus (RSV), unspecified",
+    "association": [
+      {
+        "antigen": "rsv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 305,
+    "cvx": "305",
+    "shortDescription": "RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF",
+    "association": [
+      {
+        "antigen": "rsv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 306,
+    "cvx": "306",
+    "shortDescription": "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months",
+    "association": [
+      {
+        "antigen": "rsv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 307,
+    "cvx": "307",
+    "shortDescription": "RSV, mAb, nirsevimab-alip, 1.0 mL, neonate to 24 months",
+    "association": [
+      {
+        "antigen": "rsv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 308,
+    "cvx": "308",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 309,
+    "cvx": "309",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 310,
+    "cvx": "310",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 311,
+    "cvx": "311",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 312,
+    "cvx": "312",
+    "shortDescription": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 313,
+    "cvx": "313",
+    "shortDescription": "COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 314,
+    "cvx": "314",
+    "shortDescription": "Respiratory syncytial virus (RSV) vaccine, unspecified",
+    "association": [
+      {
+        "antigen": "rsv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 315,
+    "cvx": "315",
+    "shortDescription": "Respiratory syncytial virus (RSV) monoclonal antibody (MAB), unspecified ",
+    "association": [
+      {
+        "antigen": "rsv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 316,
+    "cvx": "316",
+    "shortDescription": "meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+    "association": [
+      {
+        "antigen": "meningococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      },
+      {
+        "antigen": "meningococcal-b",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 317,
+    "cvx": "317",
+    "shortDescription": "Chikungunya live attenuated vaccine, 0.5 mL, PF",
+    "association": [
+      {
+        "antigen": "chikungunya",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 320,
+    "cvx": "320",
+    "shortDescription": "Influenza, MDCK, trivalent, preservative",
+    "association": [
+      {
+        "antigen": "influenza",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 324,
+    "cvx": "324",
+    "shortDescription": "Poliovirus, inactivated, fractional-dose (fIPV)",
+    "association": [
+      {
+        "antigen": "polio",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 326,
+    "cvx": "326",
+    "shortDescription": "RSV, mRNA, injectable, PF",
+    "association": [
+      {
+        "antigen": "rsv",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 327,
+    "cvx": "327",
+    "shortDescription": "Pneumococcal conjugate PCV 21",
+    "association": [
+      {
+        "antigen": "pneumococcal",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 500,
+    "cvx": "500",
+    "shortDescription": "COVID-19 Non-US Vaccine, Product Unknown",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 501,
+    "cvx": "501",
+    "shortDescription": "COVID-19 IV Non-US Vaccine (QAZCOVID-IN)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 502,
+    "cvx": "502",
+    "shortDescription": "COVID-19 IV Non-US Vaccine (COVAXIN)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 503,
+    "cvx": "503",
+    "shortDescription": "COVID-19 LAV Non-US Vaccine (COVIVAC)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 504,
+    "cvx": "504",
+    "shortDescription": "COVID-19 VVnr Non-US Vaccine (Sputnik Light)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 505,
+    "cvx": "505",
+    "shortDescription": "COVID-19 VVnr Non-US Vaccine (Sputnik V)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 506,
+    "cvx": "506",
+    "shortDescription": "COVID-19 VVnr Non-US Vaccine (CanSino Biological Inc./Beijing Institute of Biotechnology)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 507,
+    "cvx": "507",
+    "shortDescription": "COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Biopharmaceutical \u002B Institute of Microbiology Chinese academy of Sciences)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 508,
+    "cvx": "508",
+    "shortDescription": "COVID-19 PS Non-US Vaccine (Jiangsu Province Centers for Disease Control and Prevention)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 509,
+    "cvx": "509",
+    "shortDescription": "COVID-19 PS Non-US Vaccine (EpiVacCorona)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 510,
+    "cvx": "510",
+    "shortDescription": "COVID-19 IV Non-US Vaccine (BIBP, Sinopharm)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 511,
+    "cvx": "511",
+    "shortDescription": "COVID-19 IV Non-US Vaccine (CoronaVac, Sinovac)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 512,
+    "cvx": "512",
+    "shortDescription": "COVID-19 VLP Non-US Vaccine (Medicago, Covifenz)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 513,
+    "cvx": "513",
+    "shortDescription": "COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom, Zifivax)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 514,
+    "cvx": "514",
+    "shortDescription": "COVID-19 DNA Non-US Vaccine (Zydus Cadila, ZyCoV-D)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 515,
+    "cvx": "515",
+    "shortDescription": "COVID-19 PS Non-US Vaccine (Medigen, MVC-COV1901)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 516,
+    "cvx": "516",
+    "shortDescription": "COVID-19 Inactivated Non-US Vaccine (Minhai Biotechnology Co, KCONVAC)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 517,
+    "cvx": "517",
+    "shortDescription": "COVID-19 PS Non-US Vaccine (Biological E Limited, Corbevax)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 518,
+    "cvx": "518",
+    "shortDescription": "COVID-19 Inactivated Non-US Vaccine (VLA2001, Valneva)",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 519,
+    "cvx": "519",
+    "shortDescription": "COVID-19 mRNA, bivalent, original/Omicron BA.1 Non-US Vaccine Product (Spikevax Bivalent), Moderna",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 520,
+    "cvx": "520",
+    "shortDescription": "COVID-19 mRNA, bivalent, original/Omicron BA.1 Non-US Vaccine Product (Comirnaty Bivalent), Pfizer-BioNTech",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  },
+  {
+    "key": 521,
+    "cvx": "521",
+    "shortDescription": "COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK",
+    "association": [
+      {
+        "antigen": "covid-19",
+        "associationBeginAge": null,
+        "associationEndAge": null
+      }
+    ]
+  }
+]

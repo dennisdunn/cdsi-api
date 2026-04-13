@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
-import testcases from '../db/testcases.json';
-import catalog from '../db/catalog'
+import { testcases, catalog } from '../db';
 
 import {readDb} from '../lib/db';
 

@@ -1,8 +1,6 @@
 import { Request, Response } from "express";
 
-import groups from '../db/groups.json';
-import vaccines from '../db/vaccines.json';
-import catalog from '../db/catalog'
+import { vaccines, groups, conflicts, catalog }  from '../db';
 
 import { readDb } from '../lib/db'
 
