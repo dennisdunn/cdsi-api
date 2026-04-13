@@ -5,7 +5,7 @@
     "version": "2.1.0",
     "title": "CDSi Supporting Data API"
   },
-  "basePath": "/api",
+  "basePath": "/api/v2",
   "schemes": [
     "http",
     "https"

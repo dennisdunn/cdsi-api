@@ -22,10 +22,10 @@ app.use(compression());
 app.use(searchReply);
 app.use(partialReply);
 
-app.use("/api", metadataRoutes);
-app.use("/api/antigens", antigenRoutes);
-app.use("/api/vaccines", vaccineRoutes);
-app.use("/api/testcases", testcaseRoutes);
-app.use("/api/observations", observationRoutes);
+app.use("/api/v2", metadataRoutes);
+app.use("/api/v2/antigens", antigenRoutes);
+app.use("/api/v2/vaccines", vaccineRoutes);
+app.use("/api/v2/testcases", testcaseRoutes);
+app.use("/api/v2/observations", observationRoutes);
 
 export default app;

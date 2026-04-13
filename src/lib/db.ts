@@ -1,7 +1,9 @@
 import kebabCase from 'just-kebab-case';
 
+const re = new RegExp("\\b[A-Z]+\\b|[\/]")
+
 export const readDb = (key, collection) => {
-    key = key.indexOf('/') > -1 ? key.toLowerCase() : key
+    key = re.test(key) ? key.toLowerCase() : key 
     key = kebabCase(key)
     return collection.find(item => item.key == key)
 }
