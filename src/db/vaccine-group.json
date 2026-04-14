@@ -1,131 +1,213 @@
 [
   {
     "key": "chikungunya",
+    "antigens": [
+      "chikungunya"
+    ],
     "name": "Chikungunya",
     "administerFullVaccineGroup": null
   },
   {
     "key": "cholera",
+    "antigens": [
+      "cholera"
+    ],
     "name": "Cholera",
     "administerFullVaccineGroup": null
   },
   {
     "key": "covid-19",
+    "antigens": [
+      "covid-19"
+    ],
     "name": "COVID-19",
     "administerFullVaccineGroup": null
   },
   {
     "key": "dengue",
+    "antigens": [
+      "dengue"
+    ],
     "name": "Dengue",
     "administerFullVaccineGroup": null
   },
   {
     "key": "dtap-tdap-td",
+    "antigens": [
+      "diphtheria",
+      "pertussis",
+      "tetanus"
+    ],
     "name": "DTaP/Tdap/Td",
     "administerFullVaccineGroup": "No"
   },
   {
     "key": "ebola",
+    "antigens": [
+      "ebola"
+    ],
     "name": "Ebola",
     "administerFullVaccineGroup": null
   },
   {
     "key": "hep-a",
+    "antigens": [
+      "hep-a"
+    ],
     "name": "HepA",
     "administerFullVaccineGroup": null
   },
   {
     "key": "hep-b",
+    "antigens": [
+      "hep-b"
+    ],
     "name": "HepB",
     "administerFullVaccineGroup": null
   },
   {
     "key": "hib",
+    "antigens": [
+      "hib"
+    ],
     "name": "Hib",
     "administerFullVaccineGroup": null
   },
   {
     "key": "hpv",
+    "antigens": [
+      "hpv"
+    ],
     "name": "HPV",
     "administerFullVaccineGroup": null
   },
   {
     "key": "influenza",
+    "antigens": [
+      "influenza"
+    ],
     "name": "Influenza",
     "administerFullVaccineGroup": null
   },
   {
     "key": "japanese-encephalitis",
+    "antigens": [
+      "japanese-encephalitis"
+    ],
     "name": "Japanese Encephalitis",
     "administerFullVaccineGroup": null
   },
   {
     "key": "meningococcal",
+    "antigens": [
+      "meningococcal"
+    ],
     "name": "Meningococcal",
     "administerFullVaccineGroup": null
   },
   {
     "key": "meningococcal-b",
+    "antigens": [
+      "meningococcal-b"
+    ],
     "name": "Meningococcal B",
     "administerFullVaccineGroup": null
   },
   {
     "key": "mmr",
+    "antigens": [
+      "measles",
+      "mumps",
+      "rubella"
+    ],
     "name": "MMR",
     "administerFullVaccineGroup": "Yes"
   },
   {
     "key": "orthopoxvirus",
+    "antigens": [
+      "orthopoxvirus"
+    ],
     "name": "Orthopoxvirus",
     "administerFullVaccineGroup": null
   },
   {
     "key": "pneumococcal",
+    "antigens": [
+      "pneumococcal"
+    ],
     "name": "Pneumococcal",
     "administerFullVaccineGroup": null
   },
   {
     "key": "polio",
+    "antigens": [
+      "polio"
+    ],
     "name": "Polio",
     "administerFullVaccineGroup": null
   },
   {
     "key": "rabies",
+    "antigens": [
+      "rabies"
+    ],
     "name": "Rabies",
     "administerFullVaccineGroup": null
   },
   {
     "key": "rotavirus",
+    "antigens": [
+      "rotavirus"
+    ],
     "name": "Rotavirus",
     "administerFullVaccineGroup": null
   },
   {
     "key": "rsv",
+    "antigens": [
+      "rsv"
+    ],
     "name": "RSV",
     "administerFullVaccineGroup": null
   },
   {
     "key": "tbe",
+    "antigens": [
+      "tbe"
+    ],
     "name": "TBE",
     "administerFullVaccineGroup": null
   },
   {
     "key": "typhoid",
+    "antigens": [
+      "typhoid"
+    ],
     "name": "Typhoid",
     "administerFullVaccineGroup": null
   },
   {
     "key": "varicella",
+    "antigens": [
+      "varicella"
+    ],
     "name": "Varicella",
     "administerFullVaccineGroup": null
   },
   {
     "key": "yellow-fever",
+    "antigens": [
+      "yellow-fever"
+    ],
     "name": "Yellow Fever",
     "administerFullVaccineGroup": null
   },
   {
     "key": "zoster",
+    "antigens": [
+      "zoster"
+    ],
     "name": "Zoster",
     "administerFullVaccineGroup": null
   }

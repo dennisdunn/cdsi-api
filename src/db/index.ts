@@ -2,7 +2,6 @@ import metadata from './metadata.json'
 import antigens from './antigen.json'
 import vaccines from './vaccine.json'
 import groups from './vaccine-group.json'
-import conflicts from './live-virus-conflict.json'
 import observations from './observation.json'
 import testcases from './case.json'
 
@@ -11,6 +10,5 @@ export { metadata }
 export { antigens } 
 export { vaccines }
 export { groups }
-export { conflicts }
 export { observations }
 export { testcases }

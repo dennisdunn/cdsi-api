@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-import { vaccines, groups, conflicts, catalog }  from '../db';
+import { vaccines, groups, catalog }  from '../db';
 
 import { readDb } from '../lib/db'
 
@@ -27,7 +27,7 @@ export const getVaccineConflictsByCvx = (req: Request, res: Response, next: () =
     const data = readDb(cvx, vaccines)
     if (!!!data) res.sendStatus(404);
 
-    res.json(data.conflicts);
+    res.json(data.liveVirusConflicts);
 };
 
 export const getVaccineAntigensByCvx = (req: Request, res: Response, next: () => void) => {
@@ -36,7 +36,8 @@ export const getVaccineAntigensByCvx = (req: Request, res: Response, next: () =>
     const data = readDb(cvx, vaccines)
     if (!!!data) res.sendStatus(404);
 
-    res.json(data.association.map(item => item.antigen));
+    res.json(data.targetedAntigens);
+    // res.json(data.association.map(item => item.antigen));
 };
 
 export const getVaccineGroupsCatalog = (req: Request, res: Response, next: () => void) => {
