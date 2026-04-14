@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 
-import metadata from "../db/metadata.json";
-import catalog from "../db/catalog"
+//import metadata from "../db/metadata.json";
+import { catalog, metadata } from "../db"
 
 export const getMetadata = (req: Request, res: Response, next: () => void) => {
     res.json(metadata)

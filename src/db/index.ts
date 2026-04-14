@@ -1,8 +1,16 @@
-export { default as groups } from "./vaccine-group.json";
-export { default as metadata } from "./metadata.json";
-export { default as antigens } from "./antigen.json";
-export { default as vaccines } from "./vaccine.json";
-export { default as testcases } from "./case.json";
-export { default as observations } from "./observation.json";
-export { default as conflicts } from "./live-virus-conflict.json";
+import metadata from './metadata.json'
+import antigens from './antigen.json'
+import vaccines from './vaccine.json'
+import groups from './vaccine-group.json'
+import conflicts from './live-virus-conflict.json'
+import observations from './observation.json'
+import testcases from './case.json'
+
 export { default as catalog } from "./catalog";
+export { metadata }
+export { antigens } 
+export { vaccines }
+export { groups }
+export { conflicts }
+export { observations }
+export { testcases }
