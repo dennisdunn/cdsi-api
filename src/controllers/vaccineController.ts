@@ -62,6 +62,6 @@ export const getVaccineGroupAntigensByName = (req: Request, res: Response, next:
 
     const data = readDb(name, groups)
     if (!!!data) res.sendStatus(404);
-
+    
     res.json(data.antigens);
 };
