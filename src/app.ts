@@ -9,7 +9,7 @@ import metadataRoutes from "./routes/metadataRoutes";
 import testcaseRoutes from "./routes/testcaseRoutes";
 import observationRoutes from "./routes/observationRoutes";
 
-import { partialReply, searchReply } from './middleware';
+import { partialReply, searchReply, normalize } from './middleware';
 
 const app = express();
 
@@ -21,6 +21,7 @@ app.use(compression());
 
 app.use(searchReply);
 app.use(partialReply);
+app.use(normalize);
 
 app.use("/api/v2", metadataRoutes);
 app.use("/api/v2/antigens", antigenRoutes);
