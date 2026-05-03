@@ -23,14 +23,14 @@ const transform = value => {
             } else if (RegExp(/^(\d{4})(\d{2})(\d{2})$/).test(value)) {
                 const [, year, month, day] = value.match(/^(\d{4})(\d{2})(\d{2})$/);
                 return new Date(`${year}-${month}-${day}`);
-            } else if (RegExp(/^(\d+;\s*)+$/).test(value+";")) {
-                const numbers = value.split(";").filter(v => v !== "").map(v => parseInt(v, 10));
-                return numbers;
             }
             else if (RegExp(/^\d+$/).test(value)) {
                 return parseInt(value, 10);
             } else if (RegExp(/^\d+\.\d+$/).test(value)) {
                 return parseFloat(value);
+            } else if (RegExp(/^(\d+;\s*)+$/).test(value + ";")) {
+                const numbers = value.split(";").filter(v => v !== "").map(v => parseInt(v, 10));
+                return numbers;
             } else {
                 return value;
             }
