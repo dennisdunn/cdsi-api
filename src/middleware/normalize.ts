@@ -37,11 +37,11 @@ const transform = value => {
     }
 }
 
-const isEmptyObject = obj => {
-    return Object.values(obj).reduce((p, c) => p || c, false) || Object.keys(obj).length === 0;
+const isEmptyObject = obj => { 
+    return Object.values(obj).every(value => value === null || value === "");
 }
 
-const isEmptyArray = arr => {
+const isEmptyArray = arr => { 
     return Array.isArray(arr) && arr.length === 0 || (arr.length === 1 && arr[0] === null || arr[0] === "");
 }
 
