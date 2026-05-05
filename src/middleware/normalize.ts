@@ -41,13 +41,9 @@ const isEmptyObject = obj => {
     return Object.values(obj).every(value => value === null || value === "");
 }
 
-const isEmptyArray = arr => { 
-    return Array.isArray(arr) && arr.length === 0 || (arr.length === 1 && arr[0] === null || arr[0] === "");
-}
-
 const normalize = (obj) => {
     if (Array.isArray(obj)) {
-        return isEmptyArray(obj) ? [] : obj.map(item => normalize(item));
+        return obj.map(item => normalize(item)).filter(item => item !== null);
     }
     else if (typeof obj === "object" && obj !== null) {
         if (isEmptyObject(obj)) {
