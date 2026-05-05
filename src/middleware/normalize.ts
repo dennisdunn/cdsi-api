@@ -37,15 +37,27 @@ const transform = value => {
     }
 }
 
+const isEmptyObject = obj => {
+    return Object.values(obj).reduce((p, c) => p || c, false) || Object.keys(obj).length === 0;
+}
+
+const isEmptyArray = arr => {
+    return Array.isArray(arr) && arr.length === 0 || (arr.length === 1 && arr[0] === null || arr[0] === "");
+}
+
 const normalize = (obj) => {
     if (Array.isArray(obj)) {
-        return obj.map(item => normalize(item));
+        return isEmptyArray(obj) ? [] : obj.map(item => normalize(item));
     }
     else if (typeof obj === "object" && obj !== null) {
-        for (let key in obj) {
-            obj[key] = normalize(obj[key]);
+        if (isEmptyObject(obj)) {
+            return null;
+        } else {
+            for (let key in obj) {
+                obj[key] = normalize(obj[key]);
+            }
+            return obj;
         }
-        return obj;
     } else if (typeof obj === "string") {
         return transform(obj);
     } else {
